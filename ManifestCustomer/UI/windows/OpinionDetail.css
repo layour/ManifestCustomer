@@ -1,0 +1,101 @@
+ #OpinionDetail {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+font-size:20;
+background:#321e12;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label1 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+height:44;
+color:#d68f2f;
+font-size:16;
+width:44;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+background:#ec9e34;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #listviewdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+border-bottom-width:1;
+halign:left;
+height:60.0;
+layout:vbox;
+background:#FFFFFF;
+width:fill;
+valign:CENTER;
+border-bottom-color:#C7C7C7;
+}
+ #label2 {
+margin-right:10;
+halign:left;
+height:0;
+weight:1;
+color:#000000;
+font-size:14;
+width:fill;
+margin-left:10;
+font-family:default;
+margin-top:5;
+valign:top;
+}
+ #label3 {
+margin-right:10;
+halign:right;
+height:wrap;
+color:#c0c0c0;
+heightWrap:14.0;
+font-size:10;
+width:fill;
+margin-left:10;
+margin-bottom:5;
+font-family:default;
+valign:center;
+}

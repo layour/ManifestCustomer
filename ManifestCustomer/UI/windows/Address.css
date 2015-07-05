@@ -1,0 +1,176 @@
+ #Address {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+font-size:20;
+background:#321e12;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label1 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+height:44;
+color:#d68f2f;
+font-size:16;
+width:44;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+background:#ec9e34;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #listviewdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+border-bottom-width:1;
+halign:left;
+height:112;
+layout:vbox;
+background:#FFFFFF;
+width:fill;
+valign:CENTER;
+border-bottom-color:#C7C7C7;
+}
+ #panel1 {
+margin-right:10;
+halign:LEFT;
+height:30;
+layout:hbox;
+background:#ffffff;
+width:fill;
+margin-left:10;
+valign:center;
+}
+ #label4 {
+halign:left;
+height:20;
+weight:1;
+color:#030303;
+font-size:16;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label5 {
+halign:right;
+height:20;
+weight:1;
+color:#030303;
+font-size:16;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label3 {
+margin-right:15;
+halign:left;
+height:wrap;
+color:#999999;
+heightWrap:20.0;
+font-size:14;
+width:fill;
+margin-left:15;
+font-family:default;
+valign:center;
+}
+ #label2 {
+margin-right:15;
+halign:left;
+height:wrap;
+color:#aaaaaa;
+heightWrap:20.0;
+font-size:14;
+width:fill;
+margin-left:15;
+font-family:default;
+valign:center;
+}
+ #label6 {
+margin-right:10;
+halign:center;
+height:1;
+color:#000000;
+background:#f2f2f2;
+font-size:14;
+width:fill;
+margin-left:10;
+font-family:default;
+margin-top:5;
+valign:center;
+}
+ #panel2 {
+margin-right:10;
+halign:RIGHT;
+height:30;
+background:#ffffff;
+layout:hbox;
+width:fill;
+margin-left:10;
+valign:center;
+}
+ #imagebutton1 {
+text-align:right;
+width:64;
+icon-width:18;
+icon-height:18;
+height:30;
+color:#aaaaaa;
+font-size:12;
+icon-background-image:tool_edit_touch.png;
+icon-pressed-image:tool_edit.png;
+icon-text-spacing:3;
+}
+ #imagebutton2 {
+text-align:right;
+width:64;
+icon-width:18;
+icon-height:18;
+height:30;
+color:#aaaaaa;
+font-size:12;
+icon-background-image:tab_delete_touch.png;
+icon-pressed-image:tool_delete.png;
+icon-text-spacing:3;
+}

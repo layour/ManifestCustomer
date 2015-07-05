@@ -1,0 +1,77 @@
+ #AboutDetail {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+font-size:20;
+background:#321e12;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+background:#ec9e34;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #panel0 {
+padding-right:10;
+padding-left:10;
+padding-top:5;
+halign:center;
+height:0;
+weight:1;
+background:#ffffff;
+layout:vbox;
+width:fill;
+valign:TOP;
+padding-bottom:10;
+}
+ #label1 {
+halign:center;
+height:wrap;
+color:#000000;
+heightWrap:20.0;
+background:#ffffff;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #label3 {
+halign:left;
+height:wrap;
+widthWrap:300.0;
+color:#000000;
+heightWrap:399.0;
+font-size:14;
+background:#ffffff;
+width:wrap;
+font-family:default;
+valign:top;
+}

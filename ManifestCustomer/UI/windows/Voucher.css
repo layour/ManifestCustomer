@@ -1,0 +1,96 @@
+ #Voucher {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+background:#321e12;
+font-size:20;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+font-size:14;
+background:#ec9e34;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #togglebuttongroup0 {
+margin-right:20;
+halign:CENTER;
+height:44;
+layout:hbox;
+width:300;
+margin-left:20;
+valign:top;
+}
+ #togglebutton0 {
+halign:center;
+height:42.0;
+background-image-off:label_4_left;
+width:100.0;
+valign:center;
+background-image-on:label_4_left_touch;
+}
+ #togglebutton1 {
+halign:center;
+height:42.0;
+background-image-off:label_4_middle;
+width:100.0;
+valign:center;
+background-image-on:label_4_middle_touch;
+}
+ #togglebutton3 {
+halign:center;
+height:42.0;
+background-image-off:label_4_right;
+width:100.0;
+valign:center;
+background-image-on:label_4_right_touch;
+}
+ #flipperdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel1 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
