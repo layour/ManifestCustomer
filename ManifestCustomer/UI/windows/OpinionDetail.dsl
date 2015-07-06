@@ -5,9 +5,7 @@
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="意见反馈" class="navigatorbarclass">
-            <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeOpinionDetail()" type="imagebutton" checked="false"/>
-            <label id="label1"/>
-            <input id="button0" value="反馈" class="textbtnclass" type="button"/> 
+            <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeOpinionDetail()" type="imagebutton" checked="false"/> 
         </navigatorbar>
         <label id="label0"/>
         <listView id="listviewdefine0" bindfield="list" onload="this.loadOpinionDetail()">
@@ -24,6 +22,7 @@
                 </div> 
             </div> 
         </listView>
+        <label id="label1"/>
         <div id="panel4">
             <input id="textbox0" maxlength="256" placeholder="反馈内容" type="text"/>
             <input id="button1" value="反馈" class="buttonclass loginbuttonclass" onclick="this.login()" type="button"/> 

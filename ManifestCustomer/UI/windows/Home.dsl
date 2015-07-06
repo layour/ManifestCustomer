@@ -11,20 +11,20 @@
         </navigatorbar>
         <label id="label1"/>
         <imageflipper titleheight="20" id="imageflipper0" descheight="0" interval="2000" flipperbtnvisible="false" isloop="true" scaletype="fitxy" autoflip="true">
-            <imageflipperitem id="imageflipper0_0" title="狮桥资本" description="" src="banner01.png"/>
-            <imageflipperitem id="imageflipper0_1" title="狮桥资本" description="" src="banner02.png"/>
-            <imageflipperitem id="imageflipper0_2" title="狮桥资本" description="" src="banner03.png"/>
-            <imageflipperitem id="imageflipper0_3" title="狮桥资本" description="" src="banner04.png"/> 
+            <imageflipperitem id="imageflipper0_0" title="狮桥资本" description="change01()" src="banner01.png"/>
+            <imageflipperitem id="imageflipper0_1" title="狮桥资本" description="change02()" src="banner02.png"/>
+            <imageflipperitem id="imageflipper0_2" title="狮桥资本" description="change03()" src="banner03.png"/>
+            <imageflipperitem id="imageflipper0_3" title="狮桥资本" description="change04()" src="banner04.png"/> 
         </imageflipper>
         <div id="panel0">
-            <image id="image0" scaletype="fitxy" src="head_discount.png"/> 
+            <image id="image0" onclick="this.openOrder()" scaletype="fitxy" src="head_discount.png"/> 
         </div>
         <div id="panel1">
             <div id="panel3">
-                <input id="imagebutton1" value="一键下单" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                <input id="imagebutton1" value="一键下单" istogglebutton="false" class="imagebuttonclass" onclick="this.openOneKeyOrder()" type="imagebutton" checked="false"/> 
             </div>
             <div id="panel4">
-                <input id="imagebutton3" value="预约起运" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                <input id="imagebutton3" value="预约起运" istogglebutton="false" class="imagebuttonclass" onclick="this.openSubscribe()" type="imagebutton" checked="false"/> 
             </div> 
         </div>
         <div id="panel2">

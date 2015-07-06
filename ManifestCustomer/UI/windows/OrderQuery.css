@@ -8,8 +8,8 @@ valign:TOP;
  #viewPage0 {
 halign:center;
 height:fill;
+background:#ededed;
 layout:vbox;
-background:#F5F5F5;
 width:fill;
 valign:TOP;
 }
@@ -39,28 +39,84 @@ width:fill;
 font-family:default;
 valign:center;
 }
- #togglebuttongroup0 {
+ #togglebuttongroup1 {
 halign:CENTER;
 height:44;
 layout:hbox;
-width:300;
+width:260;
 valign:top;
 }
- #togglebutton0 {
+ #togglebutton1 {
 halign:center;
 height:42.0;
 background-image-off:label_4_left;
-color:#e50011;
-width:150.0;
+font-size:15;
+width:130.0;
 valign:center;
 background-image-on:label_4_left_touch;
 }
- #togglebutton3 {
+ #togglebutton5 {
 halign:center;
 height:42.0;
 background-image-off:label_4_right;
-color:#e50011;
-width:150.0;
+font-size:15;
+width:130.0;
 valign:center;
 background-image-on:label_4_right_touch;
+}
+ #flipperdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #listviewdefine0 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel2 {
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+background:#FFFFFF;
+layout:hbox;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
+}
+ #panel1 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #listviewdefine1 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel3 {
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+background:#FFFFFF;
+layout:hbox;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
 }

@@ -38,7 +38,28 @@ function com$lionbridge$customer$VoucherController$evaljs(js){
 function com$lionbridge$customer$VoucherController$closeVoucher(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$VoucherController$previousflipper(sender, args){
+	var index = $id("flipperdefine0").get("viewindex");
+	$id("togglebuttongroup0").set("selectedvalue", index);
+}
+function com$lionbridge$customer$VoucherController$nextflipper(sender, args){
+	var index = $id("flipperdefine0").get("viewindex");
+	$id("togglebuttongroup0").set("selectedvalue", index);
+}
+function com$lionbridge$customer$VoucherController$changeToggle(sender, args){
+	var value = $id("togglebuttongroup0").get("selectedvalue");
+	if(value == 0){
+		$id("flipperdefine0").set("viewindex", value);
+	} else if(value == 1){
+		$id("flipperdefine0").set("viewindex", value);
+	} else if(value == 2){
+		$id("flipperdefine0").set("viewindex", value);
+	}
+}
 com.lionbridge.customer.VoucherController.prototype = {
+    changeToggle : com$lionbridge$customer$VoucherController$changeToggle,
+    nextflipper : com$lionbridge$customer$VoucherController$nextflipper,
+    previousflipper : com$lionbridge$customer$VoucherController$previousflipper,
     closeVoucher : com$lionbridge$customer$VoucherController$closeVoucher,
     initialize : com$lionbridge$customer$VoucherController$initialize,
     evaljs : com$lionbridge$customer$VoucherController$evaljs

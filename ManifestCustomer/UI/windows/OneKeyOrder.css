@@ -1,0 +1,79 @@
+ #OneKeyOrder {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#ededed;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+font-size:20;
+background:#321e12;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+background:#ec9e34;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #panel0 {
+padding-right:10;
+padding-left:10;
+halign:LEFT;
+border-radius:22;
+width:fill;
+margin-bottom:10;
+margin-right:10;
+height:44;
+layout:hbox;
+background:#ffffff;
+margin-left:10;
+margin-top:10;
+valign:center;
+}
+ #button0 {
+height:44;
+weight:1;
+font-size:16;
+width:0;
+font-pressed-color:#c0c0c0;
+}
+ #imagebutton1 {
+width:70;
+icon-width:44;
+icon-height:44;
+height:44;
+font-size:10;
+icon-background-image:switchbg.png;
+icon-text-spacing:3;
+}
+ #button2 {
+height:44;
+weight:1;
+font-size:16;
+width:0;
+font-pressed-color:#c0c0c0;
+}

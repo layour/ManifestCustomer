@@ -45,7 +45,7 @@ function com$lionbridge$customer$OpinionDetailController$loadOpinionDetail(sende
 			opinionTime : "2015-05月-29 15:31:00",
 			ListViewSelector : "0"
 		}, {
-			opinionDesc : "客服：当然您在功能上有什么好的想法也可以通过这个app反馈给我们哦！我们也是会查看整理的哈~",
+			opinionDesc : "客服：当然您在功能上有什么好的想法也可以反馈给我们哦！",
 			opinionTime : "2015-05月-29 15:31:00",
 			ListViewSelector : "1"
 		}, {

@@ -38,7 +38,26 @@ function com$lionbridge$customer$OrderQueryController$evaljs(js){
 function com$lionbridge$customer$OrderQueryController$closeOrderQuery(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$OrderQueryController$changeToggle(sender, args){
+	var value = $id("togglebuttongroup1").get("selectedvalue");
+	if(value == 0){
+		$id("flipperdefine0").set("viewindex", value);
+	} else if(value == 1){
+		$id("flipperdefine0").set("viewindex", value);
+	}
+}
+function com$lionbridge$customer$OrderQueryController$previousflipper(sender, args){
+	var index = $id("flipperdefine0").get("viewindex");
+	$id("togglebuttongroup1").set("selectedvalue", index);
+}
+function com$lionbridge$customer$OrderQueryController$nextflipper(sender, args){
+	var index = $id("flipperdefine0").get("viewindex");
+	$id("togglebuttongroup1").set("selectedvalue", index);
+}
 com.lionbridge.customer.OrderQueryController.prototype = {
+    nextflipper : com$lionbridge$customer$OrderQueryController$nextflipper,
+    previousflipper : com$lionbridge$customer$OrderQueryController$previousflipper,
+    changeToggle : com$lionbridge$customer$OrderQueryController$changeToggle,
     closeOrderQuery : com$lionbridge$customer$OrderQueryController$closeOrderQuery,
     initialize : com$lionbridge$customer$OrderQueryController$initialize,
     evaljs : com$lionbridge$customer$OrderQueryController$evaljs

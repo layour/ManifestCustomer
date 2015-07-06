@@ -63,7 +63,34 @@ function com$lionbridge$customer$HomeController$openAddressSelect(sender, args){
 		"picker2binder" : "name" //Context字段名，存放选中项的value
 	})
 }
+function com$lionbridge$customer$HomeController$openSubscribe(sender, args){
+	$js.toast("敬请期待。。。");
+}
+function change01(){
+	$js.toast("敬请期待。。。");
+}
+function change02(){
+	$js.toast("敬请期待。。。");
+}
+function change03(){
+	$js.toast("敬请期待。。。");
+}
+function change04(){
+	$js.toast("敬请期待。。。");
+}
+function com$lionbridge$customer$HomeController$openOrder(sender, args){
+	$js.toast("敬请期待。。。");
+}
+function com$lionbridge$customer$HomeController$openOneKeyOrder(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.customer.OneKeyOrder",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
 com.lionbridge.customer.HomeController.prototype = {
+    openOneKeyOrder : com$lionbridge$customer$HomeController$openOneKeyOrder,
+    openOrder : com$lionbridge$customer$HomeController$openOrder,
+    openSubscribe : com$lionbridge$customer$HomeController$openSubscribe,
     openAddressSelect : com$lionbridge$customer$HomeController$openAddressSelect,
     openOderQuery : com$lionbridge$customer$HomeController$openOderQuery,
     openAbout : com$lionbridge$customer$HomeController$openAbout,

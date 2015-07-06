@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-font-size:20;
 background:#321e12;
+font-size:20;
 }
  #imagebutton0 {
 width:44;
@@ -29,28 +29,12 @@ font-size:10;
 icon-background-image:i_back.png;
 icon-text-spacing:3;
 }
- #label1 {
-halign:center;
-height:fill;
-weight:1;
-color:#000000;
-font-size:14;
-width:0;
-font-family:default;
-valign:center;
-}
- #button0 {
-height:44;
-color:#d68f2f;
-font-size:16;
-width:44;
-}
  #label0 {
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
@@ -65,8 +49,7 @@ valign:TOP;
 }
  #panel0 {
 halign:left;
-height:wrap;
-heightWrap:80.0;
+height:80.0;
 layout:vbox;
 width:fill;
 valign:CENTER;
@@ -74,8 +57,7 @@ valign:CENTER;
  #panel1 {
 margin-right:50;
 halign:center;
-height:wrap;
-heightWrap:65.0;
+height:65.0;
 layout:vbox;
 width:fill;
 margin-left:10;
@@ -84,18 +66,17 @@ valign:TOP;
 background-image:bubble_left.png;
 }
  #label2 {
-halign:left;
-width:fill;
-min-height:41;
 margin-right:15;
-height:wrap;
+halign:left;
+height:41.0;
 color:#000000;
-heightWrap:41.0;
 font-size:14;
+width:fill;
 margin-left:15;
 font-family:default;
 margin-top:5;
 valign:top;
+min-height:41;
 }
  #label3 {
 margin-right:20;
@@ -112,8 +93,7 @@ valign:center;
 }
  #panel2 {
 halign:left;
-height:wrap;
-heightWrap:80.0;
+height:80.0;
 layout:vbox;
 width:fill;
 valign:CENTER;
@@ -121,8 +101,7 @@ valign:CENTER;
  #panel3 {
 margin-right:10;
 halign:center;
-height:wrap;
-heightWrap:65.0;
+height:65.0;
 layout:vbox;
 width:fill;
 margin-left:50;
@@ -131,18 +110,17 @@ valign:TOP;
 background-image:bubble_right.png;
 }
  #label4 {
-halign:left;
-width:fill;
-min-height:41;
 margin-right:15;
-height:wrap;
+halign:left;
+height:41.0;
 color:#000000;
-heightWrap:41.0;
 font-size:14;
+width:fill;
 margin-left:15;
 font-family:default;
 margin-top:5;
 valign:top;
+min-height:41;
 }
  #label5 {
 margin-right:20;
@@ -157,9 +135,20 @@ margin-bottom:5;
 font-family:default;
 valign:center;
 }
+ #label1 {
+halign:center;
+height:1;
+color:#000000;
+background:#b8b8b8;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
  #panel4 {
 halign:LEFT;
 height:44;
+background:#eaebed;
 layout:hbox;
 width:fill;
 valign:center;
@@ -169,17 +158,18 @@ padding-left:4;
 halign:LEFT;
 height:32;
 weight:1;
+border-radius:8;
 color:#167ef8;
-font-size:17;
+font-size:14;
+background:#ffffff;
 width:0;
 margin-left:10;
 font-family:default;
-background-image:textboxbg.png;
 }
  #button1 {
 border-bottom-width:1;
 border-radius:5;
-width:56;
+width:48;
 font-pressed-color:#00a1ea;
 border-bottom-color:#ec5f1a;
 border-top-width:1;
@@ -189,7 +179,7 @@ border-top-color:#ec5f1a;
 height:32;
 border-right-color:#ec5f1a;
 background:#ec5f1a;
-font-size:16;
+font-size:14;
 margin-left:10;
 border-right-width:1;
 border-left-width:1;

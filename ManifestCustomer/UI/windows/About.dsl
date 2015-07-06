@@ -11,7 +11,7 @@
         <div id="panel6">
             <div id="panel0" onclick="this.openVoucher()">
                 <image id="image0" scaletype="fitcenter" src="i_order.png"/>
-                <label id="label0">代金卷</label> 
+                <label id="label0">代金劵</label> 
             </div>
             <label id="label2"/>
             <div id="panel1" onclick="this.openInvoice()">
@@ -41,6 +41,6 @@
                 <label id="label11">关于我们</label> 
             </div> 
         </div>
-        <input id="button0" value="退出登录" class="buttonclass loginbuttonclass" onclick="this.login()" type="button"/> 
+        <input id="button0" value="退出登录" class="buttonclass loginbuttonclass" type="button"/> 
     </div> 
 </window>
