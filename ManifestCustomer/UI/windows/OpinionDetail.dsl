@@ -25,7 +25,7 @@
             </div> 
         </listView>
         <div id="panel4">
-            <input id="textbox0" maxlength="256" placeholder="文本输入框" type="text"/>
+            <input id="textbox0" maxlength="256" placeholder="反馈内容" type="text"/>
             <input id="button1" value="反馈" class="buttonclass loginbuttonclass" onclick="this.login()" type="button"/> 
         </div> 
     </div> 
