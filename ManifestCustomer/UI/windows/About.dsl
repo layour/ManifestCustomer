@@ -14,7 +14,7 @@
                 <label id="label0">代金卷</label> 
             </div>
             <label id="label2"/>
-            <div id="panel1">
+            <div id="panel1" onclick="this.openInvoice()">
                 <image id="image1" scaletype="fitcenter" src="i_order.png"/>
                 <label id="label3">发票申请</label>
                 <label id="label13">￥0</label> 

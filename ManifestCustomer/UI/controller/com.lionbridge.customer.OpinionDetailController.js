@@ -38,7 +38,26 @@ function com$lionbridge$customer$OpinionDetailController$evaljs(js){
 function com$lionbridge$customer$OpinionDetailController$closeOpinionDetail(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$OpinionDetailController$loadOpinionDetail(sender, args){
+	var json = {
+		list : [{
+			opinionDesc : "我：这个应用不错！",
+			opinionTime : "2015-05月-29 15:31:00",
+			ListViewSelector : "0"
+		}, {
+			opinionDesc : "客服：当然您在功能上有什么好的想法也可以通过这个app反馈给我们哦！我们也是会查看整理的哈~",
+			opinionTime : "2015-05月-29 15:31:00",
+			ListViewSelector : "1"
+		}, {
+			opinionDesc : "我：移动互联网化的又一个先例。",
+			opinionTime : "2015-05月-29 15:31:00",
+			ListViewSelector : "0"
+		}]
+	}
+	$ctx.push(json);
+}
 com.lionbridge.customer.OpinionDetailController.prototype = {
+    loadOpinionDetail : com$lionbridge$customer$OpinionDetailController$loadOpinionDetail,
     closeOpinionDetail : com$lionbridge$customer$OpinionDetailController$closeOpinionDetail,
     initialize : com$lionbridge$customer$OpinionDetailController$initialize,
     evaljs : com$lionbridge$customer$OpinionDetailController$evaljs

@@ -68,7 +68,14 @@ function com$lionbridge$customer$AboutController$openRepassword(sender, args){
 		"isKeep" : "true"
 	});
 }
+function com$lionbridge$customer$AboutController$openInvoice(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.customer.Invoice",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
 com.lionbridge.customer.AboutController.prototype = {
+    openInvoice : com$lionbridge$customer$AboutController$openInvoice,
     openRepassword : com$lionbridge$customer$AboutController$openRepassword,
     openAboutDetail : com$lionbridge$customer$AboutController$openAboutDetail,
     openOpinionDetail : com$lionbridge$customer$AboutController$openOpinionDetail,

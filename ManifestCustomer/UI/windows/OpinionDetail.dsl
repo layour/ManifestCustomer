@@ -10,11 +10,23 @@
             <input id="button0" value="反馈" class="textbtnclass" type="button"/> 
         </navigatorbar>
         <label id="label0"/>
-        <listView id="listviewdefine0">
+        <listView id="listviewdefine0" bindfield="list" onload="this.loadOpinionDetail()">
             <div id="panel0">
-                <label id="label2" bindfield="opinionDesc" type="multiline">内容</label>
-                <label id="label3" bindfield="opinionTime">2015-05月-29 15:31:00</label> 
+                <div id="panel1">
+                    <label id="label2" bindfield="opinionDesc" type="multiline">我：内容</label>
+                    <label id="label3" bindfield="opinionTime">2015-05月-29 15:31:00</label> 
+                </div> 
+            </div>
+            <div id="panel2">
+                <div id="panel3">
+                    <label id="label4" bindfield="opinionDesc" type="multiline">客服：内容</label>
+                    <label id="label5" bindfield="opinionTime">2015-05月-29 15:31:00</label> 
+                </div> 
             </div> 
-        </listView> 
+        </listView>
+        <div id="panel4">
+            <input id="textbox0" maxlength="256" placeholder="文本输入框" type="text"/>
+            <input id="button1" value="反馈" class="buttonclass loginbuttonclass" onclick="this.login()" type="button"/> 
+        </div> 
     </div> 
 </window>

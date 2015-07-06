@@ -1,6 +1,6 @@
  #AboutDetail {
 halign:center;
-height:fill;
+height:700;
 layout:vbox;
 width:fill;
 valign:TOP;
@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-font-size:20;
 background:#321e12;
+font-size:20;
 }
  #imagebutton0 {
 width:44;
@@ -33,21 +33,21 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
 }
  #panel0 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 padding-top:5;
 halign:center;
 height:0;
 weight:1;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:fill;
 valign:TOP;
 padding-bottom:10;
@@ -56,22 +56,125 @@ padding-bottom:10;
 halign:center;
 height:wrap;
 color:#000000;
-heightWrap:20.0;
+heightWrap:24.0;
+font-size:18;
 background:#ffffff;
-font-size:14;
 width:fill;
 font-family:default;
+valign:center;
+}
+ #label2 {
+halign:left;
+height:wrap;
+color:#000000;
+heightWrap:21.0;
+font-size:16;
+width:fill;
+font-family:default;
+margin-top:10;
+font-weight:bold;
 valign:center;
 }
  #label3 {
 halign:left;
 height:wrap;
-widthWrap:300.0;
-color:#000000;
-heightWrap:399.0;
-font-size:14;
+color:#686868;
+heightWrap:180.0;
 background:#ffffff;
-width:wrap;
+font-size:14;
+width:fill;
+font-family:default;
+valign:top;
+}
+ #label4 {
+halign:left;
+height:wrap;
+color:#000000;
+heightWrap:21.0;
+font-size:16;
+width:fill;
+font-family:default;
+margin-top:10;
+font-weight:bold;
+valign:center;
+}
+ #label5 {
+halign:left;
+height:wrap;
+color:#686868;
+heightWrap:70.0;
+background:#ffffff;
+font-size:14;
+width:fill;
+font-family:default;
+valign:top;
+}
+ #label6 {
+halign:left;
+height:wrap;
+color:#000000;
+heightWrap:21.0;
+font-size:16;
+width:fill;
+font-family:default;
+margin-top:10;
+font-weight:bold;
+valign:center;
+}
+ #label7 {
+halign:left;
+height:wrap;
+color:#686868;
+heightWrap:70.0;
+background:#ffffff;
+font-size:14;
+width:fill;
+font-family:default;
+valign:top;
+}
+ #label8 {
+halign:left;
+height:wrap;
+color:#000000;
+heightWrap:21.0;
+font-size:16;
+width:fill;
+font-family:default;
+margin-top:10;
+font-weight:bold;
+valign:center;
+}
+ #label9 {
+halign:left;
+height:wrap;
+color:#686868;
+heightWrap:40.0;
+background:#ffffff;
+font-size:14;
+width:fill;
+font-family:default;
+valign:top;
+}
+ #label10 {
+halign:left;
+height:wrap;
+color:#000000;
+heightWrap:21.0;
+font-size:16;
+width:fill;
+font-family:default;
+margin-top:10;
+font-weight:bold;
+valign:center;
+}
+ #label11 {
+halign:left;
+height:wrap;
+color:#686868;
+heightWrap:85.0;
+background:#ffffff;
+font-size:14;
+width:fill;
 font-family:default;
 valign:top;
 }

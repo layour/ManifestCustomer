@@ -14,7 +14,8 @@
   <view id="Repassword" ref="Repassword.dsl" include="true"/>  
   <view id="OpinionDetail" ref="OpinionDetail.dsl" include="true"/>  
   <view id="AboutDetail" ref="AboutDetail.dsl" include="true"/>  
-  <view id="AddAddress" ref="AddAddress.dsl" include="true"/> 
+  <view id="AddAddress" ref="AddAddress.dsl" include="true"/>  
+  <view id="Invoice" ref="Invoice.dsl" include="true"/> 
 </application>
 <!--
 【屏幕显示方向】
