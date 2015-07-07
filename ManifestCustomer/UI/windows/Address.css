@@ -63,8 +63,16 @@ layout:vbox;
 width:fill;
 valign:TOP;
 }
+ #panel3 {
+halign:center;
+height:122;
+layout:vbox;
+width:fill;
+valign:BOTTOM;
+}
  #panel0 {
 border-bottom-width:1;
+border-top-color:#C7C7C7;
 halign:left;
 height:112;
 background:#FFFFFF;
@@ -72,6 +80,7 @@ layout:vbox;
 width:fill;
 valign:CENTER;
 border-bottom-color:#C7C7C7;
+border-top-width:1;
 }
  #panel1 {
 margin-right:10;

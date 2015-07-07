@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-background:#321e12;
 font-size:20;
+background:#321e12;
 }
  #imagebutton0 {
 width:44;
@@ -53,8 +53,8 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-font-size:14;
 background:#ec9e34;
+font-size:14;
 width:fill;
 font-family:default;
 valign:center;
@@ -66,8 +66,8 @@ width:fill;
  #panel0 {
 halign:LEFT;
 height:110;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
@@ -98,8 +98,8 @@ valign:center;
 }
  #imagebutton1 {
 width:88;
-icon-width:56;
-icon-height:56;
+icon-width:64;
+icon-height:64;
 height:88;
 color:#232323;
 font-size:14;
@@ -117,8 +117,8 @@ valign:center;
 }
  #imagebutton3 {
 width:88;
-icon-width:56;
-icon-height:56;
+icon-width:64;
+icon-height:64;
 height:88;
 color:#232323;
 font-size:14;
@@ -144,8 +144,8 @@ valign:center;
 }
  #imagebutton2 {
 width:88;
-icon-width:56;
-icon-height:56;
+icon-width:64;
+icon-height:64;
 height:88;
 color:#232323;
 font-size:14;
@@ -163,8 +163,8 @@ valign:center;
 }
  #imagebutton5 {
 width:88;
-icon-width:56;
-icon-height:56;
+icon-width:64;
+icon-height:64;
 height:88;
 color:#232323;
 font-size:14;

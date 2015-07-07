@@ -56,7 +56,26 @@ function com$lionbridge$customer$VoucherController$changeToggle(sender, args){
 		$id("flipperdefine0").set("viewindex", value);
 	}
 }
+function com$lionbridge$customer$VoucherController$loadVoucher(sender, args){
+	var json = {
+		list : [{
+			voucher : "100元狮桥超级车队代金劵",
+			stime : "2015-07-07",
+			etime : "2015-08-07"
+		}, {
+			voucher : "50元狮桥超级车队代金劵",
+			stime : "2015-07-07",
+			etime : "2015-08-07"
+		}, {
+			voucher : "200元狮桥超级车队代金劵",
+			stime : "2015-07-07",
+			etime : "2015-08-07"
+		}]
+	}
+	$ctx.push(json);
+}
 com.lionbridge.customer.VoucherController.prototype = {
+    loadVoucher : com$lionbridge$customer$VoucherController$loadVoucher,
     changeToggle : com$lionbridge$customer$VoucherController$changeToggle,
     nextflipper : com$lionbridge$customer$VoucherController$nextflipper,
     previousflipper : com$lionbridge$customer$VoucherController$previousflipper,

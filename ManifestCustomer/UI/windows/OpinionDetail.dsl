@@ -25,7 +25,7 @@
         <label id="label1"/>
         <div id="panel4">
             <input id="textbox0" maxlength="256" placeholder="反馈内容" type="text"/>
-            <input id="button1" value="反馈" class="buttonclass loginbuttonclass" onclick="this.login()" type="button"/> 
+            <input id="button1" value="反馈" class="buttonclass loginbuttonclass" type="button"/> 
         </div> 
     </div> 
 </window>

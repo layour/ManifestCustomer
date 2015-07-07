@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-font-size:20;
 background:#321e12;
+font-size:20;
 }
  #imagebutton1 {
 width:44;
@@ -33,8 +33,8 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
@@ -42,19 +42,19 @@ valign:center;
  #panel6 {
 halign:center;
 height:134;
-layout:vbox;
 background:#ffffff;
+layout:vbox;
 width:fill;
 margin-top:10;
 valign:TOP;
 }
  #panel0 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -79,20 +79,20 @@ margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-font-size:14;
 background:#dbdbdb;
+font-size:14;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel1 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -129,20 +129,20 @@ margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-font-size:14;
 background:#dbdbdb;
+font-size:14;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel2 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -165,19 +165,19 @@ valign:center;
  #panel7 {
 halign:center;
 height:134;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:fill;
 margin-top:10;
 valign:TOP;
 }
  #panel3 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -202,20 +202,20 @@ margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-font-size:14;
 background:#dbdbdb;
+font-size:14;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel4 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -240,20 +240,20 @@ margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-font-size:14;
 background:#dbdbdb;
+font-size:14;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel5 {
-padding-right:10;
 padding-left:10;
+padding-right:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }

@@ -54,7 +54,32 @@ function com$lionbridge$customer$OrderQueryController$nextflipper(sender, args){
 	var index = $id("flipperdefine0").get("viewindex");
 	$id("togglebuttongroup1").set("selectedvalue", index);
 }
+function com$lionbridge$customer$OrderQueryController$loadOrder(sender, args){
+	var json = {
+		list : [{
+			status : "正在运输",
+			orderno : "订单号：100000663",
+			line : "专线名称：北京市-上海市",
+			count : "定舱数量：1",
+			money : "订单金额：￥7000"
+		}, {
+			status : "正在运输",
+			orderno : "订单号：100000664",
+			line : "专线名称：北京市-上海市",
+			count : "定舱数量：2",
+			money : "订单金额：￥6000"
+		}, {
+			status : "正在运输",
+			orderno : "订单号：100000665",
+			line : "专线名称：北京市-上海市",
+			count : "定舱数量：2",
+			money : "订单金额：￥7000"
+		}]
+	}
+	$ctx.push(json);
+}
 com.lionbridge.customer.OrderQueryController.prototype = {
+    loadOrder : com$lionbridge$customer$OrderQueryController$loadOrder,
     nextflipper : com$lionbridge$customer$OrderQueryController$nextflipper,
     previousflipper : com$lionbridge$customer$OrderQueryController$previousflipper,
     changeToggle : com$lionbridge$customer$OrderQueryController$changeToggle,

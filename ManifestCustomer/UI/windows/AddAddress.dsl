@@ -25,7 +25,7 @@
                 </div>
                 <label id="label5"/>
                 <div id="panel5">
-                    <input id="button1" class="textbtnclass" type="button"/>
+                    <input id="imagebutton5" value="联系人" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
                 </div> 
             </div>
             <label id="label3"/>

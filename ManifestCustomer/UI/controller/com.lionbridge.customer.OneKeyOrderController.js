@@ -38,7 +38,29 @@ function com$lionbridge$customer$OneKeyOrderController$evaljs(js){
 function com$lionbridge$customer$OneKeyOrderController$closeOneKeyOrder(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$OneKeyOrderController$loadOrder(sender, args){
+	var json = {
+		list : [{
+			count : "3",
+			line : "上海市-北京市",
+			time : "2015-07-08 8:00-18:00",
+			money : "￥7000"
+		}, {
+			count : "5",
+			line : "上海市-北京市",
+			time : "2015-07-08 8:00-18:00",
+			money : "￥9400"
+		}, {
+			count : "2",
+			line : "北京市-上海市",
+			time : "2015-07-08 8:00-18:00",
+			money : "￥7600"
+		}]
+	}
+	$ctx.push(json);
+}
 com.lionbridge.customer.OneKeyOrderController.prototype = {
+    loadOrder : com$lionbridge$customer$OneKeyOrderController$loadOrder,
     closeOneKeyOrder : com$lionbridge$customer$OneKeyOrderController$closeOneKeyOrder,
     initialize : com$lionbridge$customer$OneKeyOrderController$initialize,
     evaljs : com$lionbridge$customer$OneKeyOrderController$evaljs

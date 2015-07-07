@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-font-size:20;
 background:#321e12;
+font-size:20;
 }
  #imagebutton0 {
 width:44;
@@ -49,8 +49,8 @@ width:44;
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
@@ -58,19 +58,19 @@ valign:center;
  #panel0 {
 halign:center;
 height:179;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:fill;
 margin-top:10;
 valign:TOP;
 }
  #panel1 {
-padding-left:10;
 padding-right:10;
+padding-left:10;
 halign:LEFT;
 height:89;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -78,27 +78,27 @@ valign:center;
 halign:center;
 height:fill;
 weight:3;
-layout:vbox;
 background:#ffffff;
+layout:vbox;
 width:0;
 valign:TOP;
 }
  #panel6 {
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
  #imagebutton3 {
 width:44;
-icon-width:25;
+icon-width:22;
 font-pressed-color:#e50011;
-icon-height:25;
+icon-height:22;
 height:44;
 font-size:10;
-icon-background-image:signin_cipher.png;
+icon-background-image:tab_concact_touch.png;
 icon-text-spacing:3;
 }
  #textbox2 {
@@ -107,8 +107,8 @@ halign:LEFT;
 height:44;
 weight:1;
 color:#167ef8;
-background:#ffffff;
 font-size:14;
+background:#ffffff;
 width:0;
 font-family:default;
 }
@@ -116,8 +116,8 @@ font-family:default;
 halign:center;
 height:1;
 color:#000000;
-background:#dbdbdb;
 font-size:14;
+background:#dbdbdb;
 width:fill;
 font-family:default;
 valign:center;
@@ -125,19 +125,19 @@ valign:center;
  #panel7 {
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
  #imagebutton4 {
 width:44;
-icon-width:25;
+icon-width:22;
 font-pressed-color:#e50011;
-icon-height:25;
+icon-height:22;
 height:44;
 font-size:10;
-icon-background-image:signin_cipher.png;
+icon-background-image:tab_phone_touch.png;
 icon-text-spacing:3;
 }
  #textbox3 {
@@ -146,8 +146,8 @@ halign:LEFT;
 height:44;
 weight:1;
 color:#167ef8;
-background:#ffffff;
 font-size:14;
+background:#ffffff;
 width:0;
 font-family:default;
 }
@@ -155,8 +155,8 @@ font-family:default;
 halign:center;
 height:fill;
 color:#000000;
-font-size:14;
 background:#dbdbdb;
+font-size:14;
 width:1;
 font-family:default;
 valign:center;
@@ -165,46 +165,50 @@ valign:center;
 halign:CENTER;
 height:fill;
 weight:1;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:0;
 valign:center;
 }
- #button1 {
-height:44;
-width:44;
-background-image:tab_contact.png;
+ #imagebutton5 {
+width:64;
+icon-width:44;
+icon-height:44;
+height:64;
+font-size:10;
+icon-background-image:myhead.png;
+icon-text-spacing:3;
 }
  #label3 {
 margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-background:#dbdbdb;
 font-size:14;
+background:#dbdbdb;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel2 {
-padding-left:10;
 padding-right:10;
+padding-left:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
  #imagebutton1 {
 width:44;
-icon-width:25;
+icon-width:22;
 font-pressed-color:#e50011;
-icon-height:25;
+icon-height:22;
 height:44;
 font-size:10;
-icon-background-image:signin_cipher.png;
+icon-background-image:tab_position_touch.png;
 icon-text-spacing:3;
 }
  #textbox0 {
@@ -213,8 +217,8 @@ halign:LEFT;
 height:44;
 weight:1;
 color:#167ef8;
-background:#ffffff;
 font-size:14;
+background:#ffffff;
 width:0;
 font-family:default;
 }
@@ -223,31 +227,31 @@ margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-background:#dbdbdb;
 font-size:14;
+background:#dbdbdb;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel3 {
-padding-left:10;
 padding-right:10;
+padding-left:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
  #imagebutton2 {
 width:44;
-icon-width:25;
+icon-width:20;
 font-pressed-color:#e50011;
-icon-height:25;
+icon-height:20;
 height:44;
 font-size:10;
-icon-background-image:signin_cipher.png;
+icon-background-image:tab_push_touch.png;
 icon-text-spacing:3;
 }
  #textbox1 {
@@ -256,8 +260,8 @@ halign:LEFT;
 height:44;
 weight:1;
 color:#167ef8;
-background:#ffffff;
 font-size:14;
+background:#ffffff;
 width:0;
 font-family:default;
 }

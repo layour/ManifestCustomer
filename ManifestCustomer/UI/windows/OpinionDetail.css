@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-background:#321e12;
 font-size:20;
+background:#321e12;
 }
  #imagebutton0 {
 width:44;
@@ -33,8 +33,8 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-font-size:14;
 background:#ec9e34;
+font-size:14;
 width:fill;
 font-family:default;
 valign:center;
@@ -139,8 +139,8 @@ valign:center;
 halign:center;
 height:1;
 color:#000000;
-background:#b8b8b8;
 font-size:14;
+background:#b8b8b8;
 width:fill;
 font-family:default;
 valign:center;
@@ -148,8 +148,8 @@ valign:center;
  #panel4 {
 halign:LEFT;
 height:44;
-background:#eaebed;
 layout:hbox;
+background:#eaebed;
 width:fill;
 valign:center;
 }
@@ -160,8 +160,8 @@ height:32;
 weight:1;
 border-radius:8;
 color:#167ef8;
-font-size:14;
 background:#ffffff;
+font-size:14;
 width:0;
 margin-left:10;
 font-family:default;

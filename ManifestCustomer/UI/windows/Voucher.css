@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-background:#321e12;
 font-size:20;
+background:#321e12;
 }
  #imagebutton0 {
 width:44;
@@ -33,8 +33,8 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-font-size:14;
 background:#ec9e34;
+font-size:14;
 width:fill;
 font-family:default;
 valign:center;
@@ -50,7 +50,7 @@ valign:top;
 halign:center;
 height:42.0;
 background-image-off:label_4_left;
-font-size:15;
+font-size:14;
 width:100.0;
 valign:center;
 background-image-on:label_4_left_touch;
@@ -59,7 +59,7 @@ background-image-on:label_4_left_touch;
 halign:center;
 height:42.0;
 background-image-off:label_4_middle;
-font-size:15;
+font-size:14;
 width:100.0;
 valign:center;
 background-image-on:label_4_middle_touch;
@@ -68,7 +68,7 @@ background-image-on:label_4_middle_touch;
 halign:center;
 height:42.0;
 background-image-off:label_4_right;
-font-size:15;
+font-size:14;
 width:100.0;
 valign:center;
 background-image-on:label_4_right_touch;
@@ -89,21 +89,135 @@ width:fill;
 valign:TOP;
 }
  #listviewdefine0 {
+margin-right:10;
 halign:center;
 height:fill;
+layout:vbox;
+width:fill;
+margin-left:10;
+valign:TOP;
+}
+ #panel12 {
+halign:center;
+height:110;
 layout:vbox;
 width:fill;
 valign:TOP;
 }
  #panel3 {
 border-bottom-width:1;
-halign:LEFT;
-height:60.0;
-background:#FFFFFF;
+border-top-color:#C7C7C7;
+halign:RIGHT;
+height:100;
 layout:hbox;
+background:#FFFFFF;
 width:fill;
 valign:center;
 border-bottom-color:#C7C7C7;
+border-top-width:1;
+}
+ #panel6 {
+halign:center;
+height:fill;
+weight:2;
+layout:vbox;
+width:0;
+margin-left:10;
+margin-bottom:10;
+margin-top:10;
+valign:CENTER;
+background-image:panelbg.png;
+}
+ #label1 {
+margin-right:10;
+halign:right;
+height:wrap;
+color:#321e12;
+heightWrap:18.0;
+font-size:12;
+width:fill;
+margin-left:10;
+margin-bottom:10;
+font-family:default;
+valign:center;
+}
+ #label2 {
+margin-right:10;
+halign:center;
+height:wrap;
+color:#ffffff;
+heightWrap:20.0;
+font-size:14;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #panel7 {
+halign:center;
+height:fill;
+weight:1;
+layout:vbox;
+width:0;
+margin-bottom:10;
+margin-top:10;
+valign:CENTER;
+}
+ #label3 {
+halign:center;
+height:wrap;
+widthWrap:39.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label4 {
+halign:center;
+height:1;
+color:#000000;
+background:#C7C7C7;
+font-size:14;
+width:80;
+margin-bottom:3;
+font-family:default;
+margin-top:3;
+valign:center;
+}
+ #label5 {
+halign:center;
+height:wrap;
+widthWrap:64.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label6 {
+halign:center;
+height:wrap;
+widthWrap:13.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label7 {
+halign:center;
+height:wrap;
+widthWrap:64.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
 }
  #panel1 {
 halign:center;
@@ -113,21 +227,135 @@ width:fill;
 valign:TOP;
 }
  #listviewdefine1 {
+margin-right:10;
 halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+margin-left:10;
 valign:TOP;
 }
  #panel4 {
+halign:center;
+height:110;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel8 {
 border-bottom-width:1;
-halign:LEFT;
-height:60.0;
+border-top-color:#C7C7C7;
+halign:RIGHT;
+height:100;
 background:#FFFFFF;
 layout:hbox;
 width:fill;
 valign:center;
 border-bottom-color:#C7C7C7;
+border-top-width:1;
+}
+ #panel9 {
+halign:center;
+height:fill;
+weight:2;
+layout:vbox;
+width:0;
+margin-left:10;
+margin-bottom:10;
+margin-top:10;
+valign:CENTER;
+background-image:panelbg.png;
+}
+ #label8 {
+margin-right:10;
+halign:right;
+height:wrap;
+color:#321e12;
+heightWrap:18.0;
+font-size:12;
+width:fill;
+margin-left:10;
+margin-bottom:10;
+font-family:default;
+valign:center;
+}
+ #label9 {
+margin-right:10;
+halign:center;
+height:wrap;
+color:#ffffff;
+heightWrap:20.0;
+font-size:14;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #panel13 {
+halign:center;
+height:fill;
+weight:1;
+layout:vbox;
+width:0;
+margin-bottom:10;
+margin-top:10;
+valign:CENTER;
+}
+ #label10 {
+halign:center;
+height:wrap;
+widthWrap:39.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label11 {
+halign:center;
+height:1;
+color:#000000;
+font-size:14;
+background:#C7C7C7;
+width:80;
+margin-bottom:3;
+font-family:default;
+margin-top:3;
+valign:center;
+}
+ #label12 {
+halign:center;
+height:wrap;
+widthWrap:64.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label13 {
+halign:center;
+height:wrap;
+widthWrap:13.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label14 {
+halign:center;
+height:wrap;
+widthWrap:64.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
 }
  #panel2 {
 halign:center;
@@ -137,19 +365,133 @@ width:fill;
 valign:TOP;
 }
  #listviewdefine2 {
+margin-right:10;
 halign:center;
 height:fill;
 layout:vbox;
 width:fill;
+margin-left:10;
 valign:TOP;
 }
  #panel5 {
+halign:center;
+height:110;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel10 {
 border-bottom-width:1;
-halign:LEFT;
-height:60.0;
+border-top-color:#C7C7C7;
+halign:RIGHT;
+height:100;
 background:#FFFFFF;
 layout:hbox;
 width:fill;
 valign:center;
 border-bottom-color:#C7C7C7;
+border-top-width:1;
+}
+ #panel11 {
+halign:center;
+height:fill;
+weight:2;
+layout:vbox;
+width:0;
+margin-left:10;
+margin-bottom:10;
+margin-top:10;
+valign:CENTER;
+background-image:panelbg.png;
+}
+ #label15 {
+margin-right:10;
+halign:right;
+height:wrap;
+color:#321e12;
+heightWrap:18.0;
+font-size:12;
+width:fill;
+margin-left:10;
+margin-bottom:10;
+font-family:default;
+valign:center;
+}
+ #label16 {
+margin-right:10;
+halign:center;
+height:wrap;
+color:#ffffff;
+heightWrap:20.0;
+font-size:14;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #panel14 {
+halign:center;
+height:fill;
+weight:1;
+layout:vbox;
+width:0;
+margin-bottom:10;
+margin-top:10;
+valign:CENTER;
+}
+ #label17 {
+halign:center;
+height:wrap;
+widthWrap:39.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label18 {
+halign:center;
+height:1;
+color:#000000;
+font-size:14;
+background:#C7C7C7;
+width:80;
+margin-bottom:3;
+font-family:default;
+margin-top:3;
+valign:center;
+}
+ #label19 {
+halign:center;
+height:wrap;
+widthWrap:64.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label20 {
+halign:center;
+height:wrap;
+widthWrap:13.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label21 {
+halign:center;
+height:wrap;
+widthWrap:64.0;
+color:#686868;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
 }

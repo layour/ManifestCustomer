@@ -10,7 +10,7 @@
         <label id="label1"/>
         <div id="panel6">
             <div id="panel0" onclick="this.openVoucher()">
-                <image id="image0" scaletype="fitcenter" src="i_order.png"/>
+                <image id="image0" scaletype="fitcenter" src="i_voucher.png"/>
                 <label id="label0">代金劵</label> 
             </div>
             <label id="label2"/>
