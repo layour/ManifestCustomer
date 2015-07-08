@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.customer.OneKeyOrderController');
-com.lionbridge.customer.OneKeyOrderController = function() {
-    com.lionbridge.customer.OneKeyOrderController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.customer.OrderListController');
+com.lionbridge.customer.OrderListController = function() {
+    com.lionbridge.customer.OrderListController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$customer$OneKeyOrderController$initialize(){
+function com$lionbridge$customer$OrderListController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,16 +32,41 @@ function com$lionbridge$customer$OneKeyOrderController$initialize(){
     
 }
     
-function com$lionbridge$customer$OneKeyOrderController$evaljs(js){
+function com$lionbridge$customer$OrderListController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$customer$OneKeyOrderController$closeOneKeyOrder(sender, args){
+function com$lionbridge$customer$OrderListController$closeOrderList(sender, args){
 	$view.close();
 }
-com.lionbridge.customer.OneKeyOrderController.prototype = {
-    closeOneKeyOrder : com$lionbridge$customer$OneKeyOrderController$closeOneKeyOrder,
-    initialize : com$lionbridge$customer$OneKeyOrderController$initialize,
-    evaljs : com$lionbridge$customer$OneKeyOrderController$evaljs
+function com$lionbridge$customer$OrderListController$loadOrder(sender, args){
+	var json = {
+		list : [{
+			count : "3厢",
+			line : "上海市-北京市",
+			time : "8:00-18:00",
+			date : "2015-07-08",
+			money : "￥7000"
+		}, {
+			count : "5厢",
+			line : "上海市-北京市",
+			time : "8:00-18:00",
+			date : "2015-07-08",
+			money : "￥9400"
+		}, {
+			count : "2厢",
+			line : "北京市-上海市",
+			time : "8:00-18:00",
+			date : "2015-07-08",
+			money : "￥7600"
+		}]
+	}
+	$ctx.push(json);
+}
+com.lionbridge.customer.OrderListController.prototype = {
+    loadOrder : com$lionbridge$customer$OrderListController$loadOrder,
+    closeOrderList : com$lionbridge$customer$OrderListController$closeOrderList,
+    initialize : com$lionbridge$customer$OrderListController$initialize,
+    evaljs : com$lionbridge$customer$OrderListController$evaljs
 };
-com.lionbridge.customer.OneKeyOrderController.registerClass('com.lionbridge.customer.OneKeyOrderController',UMP.UI.Mvc.Controller);
+com.lionbridge.customer.OrderListController.registerClass('com.lionbridge.customer.OrderListController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}

@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-font-size:20;
 background:#321e12;
+font-size:20;
 }
  #imagebutton0 {
 width:44;
@@ -29,216 +29,29 @@ font-size:10;
 icon-background-image:i_back.png;
 icon-text-spacing:3;
 }
- #label0 {
+ #label1 {
 halign:center;
-height:2;
+height:fill;
+weight:1;
 color:#000000;
-background:#ec9e34;
 font-size:14;
-width:fill;
+width:0;
 font-family:default;
-valign:center;
-}
- #panel0 {
-padding-right:10;
-padding-left:10;
-halign:LEFT;
-border-radius:22;
-width:fill;
-margin-bottom:10;
-margin-right:10;
-height:44;
-layout:hbox;
-background:#ffffff;
-margin-left:10;
-margin-top:10;
 valign:center;
 }
  #button0 {
 height:44;
-weight:1;
-font-size:16;
-width:0;
-font-pressed-color:#c0c0c0;
-}
- #imagebutton1 {
-width:70;
-icon-width:44;
-icon-height:44;
-height:44;
-font-size:10;
-icon-background-image:switchbg.png;
-icon-text-spacing:3;
-}
- #button2 {
-height:44;
-weight:1;
-font-size:16;
-width:0;
-font-pressed-color:#c0c0c0;
-}
- #listviewdefine0 {
-halign:center;
-height:0;
-weight:1;
-layout:vbox;
-width:fill;
-valign:TOP;
-}
- #panel1 {
-halign:center;
-height:130;
-layout:vbox;
-width:fill;
-valign:TOP;
-}
- #panel2 {
-border-bottom-width:1;
-border-top-color:#C7C7C7;
-halign:LEFT;
-height:120;
-background:#FFFFFF;
-layout:hbox;
-width:fill;
-valign:center;
-border-bottom-color:#C7C7C7;
-border-top-width:1;
-}
- #panel3 {
-halign:center;
-height:fill;
-weight:3;
-layout:vbox;
-background:#ffffff;
-width:0;
-valign:CENTER;
-}
- #label1 {
-halign:center;
-height:wrap;
-widthWrap:60.0;
-color:#000000;
-heightWrap:20.0;
-font-size:14;
-width:wrap;
-font-family:default;
-valign:center;
-}
- #panel5 {
-halign:CENTER;
-height:60.0;
-layout:hbox;
-background:#ffffff;
-width:120.0;
-valign:bottom;
-}
- #label7 {
-margin-right:10;
-halign:center;
-height:wrap;
-widthWrap:23.0;
-color:#000000;
-heightWrap:59.0;
-font-size:42;
-width:wrap;
-margin-left:30;
-font-family:default;
-valign:center;
-}
- #label8 {
-halign:center;
-height:wrap;
-widthWrap:15.0;
-color:#000000;
-heightWrap:20.0;
-font-size:14;
-width:wrap;
-font-family:default;
-valign:center;
-}
- #label2 {
-halign:center;
-height:1;
-color:#000000;
-background:#C7C7C7;
-font-size:14;
-width:80;
-margin-bottom:5;
-font-family:default;
-margin-top:5;
-valign:center;
-}
- #label3 {
-halign:center;
-height:wrap;
-widthWrap:53.0;
 color:#d68f2f;
-heightWrap:23.0;
 font-size:16;
-width:wrap;
-font-family:default;
-valign:center;
+width:44;
 }
- #panel4 {
-padding-left:10;
-halign:left;
-height:fill;
-weight:4;
-layout:vbox;
-background:#ffffff;
-width:0;
-valign:CENTER;
-}
- #label4 {
+ #label0 {
 halign:center;
-height:wrap;
-widthWrap:95.0;
+height:2;
 color:#000000;
-heightWrap:20.0;
 font-size:14;
-width:wrap;
-font-family:default;
-valign:center;
-}
- #label5 {
-halign:left;
-height:wrap;
-color:#000000;
-heightWrap:20.0;
-font-size:14;
+background:#ec9e34;
 width:fill;
-margin-bottom:5;
-font-family:default;
-margin-top:5;
-valign:center;
-}
- #label9 {
-halign:left;
-height:wrap;
-color:#d68f2f;
-heightWrap:20.0;
-font-size:14;
-width:fill;
-margin-left:10;
 font-family:default;
 valign:center;
-}
- #button3 {
-border-bottom-width:1;
-border-radius:5;
-width:88;
-margin-bottom:5;
-font-pressed-color:#00a1ea;
-border-bottom-color:#ec5f1a;
-border-top-width:1;
-border-left-color:#ec5f1a;
-border-top-color:#ec5f1a;
-height:32;
-border-right-color:#ec5f1a;
-background:#ec5f1a;
-font-size:16;
-margin-left:10;
-border-right-width:1;
-margin-top:5;
-border-left-width:1;
 }
