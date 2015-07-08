@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-background:#321e12;
 font-size:20;
+background:#321e12;
 }
  #imagebutton0 {
 width:44;
@@ -49,35 +49,36 @@ width:44;
 halign:center;
 height:2;
 color:#000000;
-font-size:14;
 background:#ec9e34;
+font-size:14;
 width:fill;
 font-family:default;
 valign:center;
 }
  #panel1 {
-padding-left:10;
 padding-right:5;
+padding-left:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#e8e8e8;
+layout:hbox;
 width:fill;
 valign:center;
 }
  #button1 {
 height:44;
 widthWrap:45.0;
-font-size:14;
+color:#d68f2f;
 background:#e8e8e8;
+font-size:14;
 width:wrap;
 }
  #label2 {
 halign:center;
 height:26;
 color:#000000;
-font-size:14;
 background:#dbdbdb;
+font-size:14;
 width:1;
 margin-left:5;
 font-family:default;
@@ -114,8 +115,8 @@ valign:TOP;
 border-bottom-width:1;
 halign:LEFT;
 height:60.0;
-background:#FFFFFF;
 layout:hbox;
+background:#FFFFFF;
 width:fill;
 valign:center;
 border-bottom-color:#C7C7C7;
