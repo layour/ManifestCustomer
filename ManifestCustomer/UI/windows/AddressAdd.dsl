@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="AddAddress" controller="AddAddressController" namespace="com.lionbridge.customer">
-    <import ref="AddAddress.css" type="css"/>
+<window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="AddressAdd" controller="AddressAddController" namespace="com.lionbridge.customer">
+    <import ref="AddressAdd.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="编辑地址" class="navigatorbarclass">
-            <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeAddAddress()" type="imagebutton" checked="false"/>
+            <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeAddressAdd()" type="imagebutton" checked="false"/>
             <label id="label1"/>
             <input id="button0" value="确定" class="textbtnclass" type="button"/> 
         </navigatorbar>

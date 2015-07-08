@@ -32,14 +32,15 @@
   <view id="AboutDetail" ref="AboutDetail.dsl" include="true"> 
     <extend statusbarcolor="#321e12"/> 
   </view>  
-  <view id="AddAddress" ref="AddAddress.dsl" include="true"> 
+  <view id="AddressAdd" ref="AddressAdd.dsl" include="true"> 
     <extend statusbarcolor="#321e12"/> 
   </view>  
   <view id="Invoice" ref="Invoice.dsl" include="true"> 
     <extend statusbarcolor="#321e12"/> 
   </view>  
   <view id="OrderList" ref="OrderList.dsl" include="true"/>  
-  <view id="OneKeyOrder" ref="OneKeyOrder.dsl" include="true"/>
+  <view id="OneKeyOrder" ref="OneKeyOrder.dsl" include="true"/>  
+  <view id="AddressChange" ref="AddressChange.dsl" include="true"/>
 </application>
 <!--
 【屏幕显示方向】

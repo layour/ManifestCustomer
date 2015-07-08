@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.customer.AddAddressController');
-com.lionbridge.customer.AddAddressController = function() {
-    com.lionbridge.customer.AddAddressController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.customer.AddressAddController');
+com.lionbridge.customer.AddressAddController = function() {
+    com.lionbridge.customer.AddressAddController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$customer$AddAddressController$initialize(){
+function com$lionbridge$customer$AddressAddController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,16 +32,16 @@ function com$lionbridge$customer$AddAddressController$initialize(){
     
 }
     
-function com$lionbridge$customer$AddAddressController$evaljs(js){
+function com$lionbridge$customer$AddressAddController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$customer$AddAddressController$closeAddAddress(sender, args){
+function com$lionbridge$customer$AddressAddController$closeAddressAdd(sender, args){
 	$view.close();
 }
-com.lionbridge.customer.AddAddressController.prototype = {
-    closeAddAddress : com$lionbridge$customer$AddAddressController$closeAddAddress,
-    initialize : com$lionbridge$customer$AddAddressController$initialize,
-    evaljs : com$lionbridge$customer$AddAddressController$evaljs
+com.lionbridge.customer.AddressAddController.prototype = {
+    closeAddressAdd : com$lionbridge$customer$AddressAddController$closeAddressAdd,
+    initialize : com$lionbridge$customer$AddressAddController$initialize,
+    evaljs : com$lionbridge$customer$AddressAddController$evaljs
 };
-com.lionbridge.customer.AddAddressController.registerClass('com.lionbridge.customer.AddAddressController',UMP.UI.Mvc.Controller);
+com.lionbridge.customer.AddressAddController.registerClass('com.lionbridge.customer.AddressAddController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}

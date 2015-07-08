@@ -1,0 +1,122 @@
+ #AddressChange {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#ededed;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+background:#321e12;
+font-size:20;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label1 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+height:44;
+color:#d68f2f;
+font-size:16;
+width:44;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+font-size:14;
+background:#ec9e34;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #panel1 {
+padding-left:10;
+padding-right:5;
+halign:LEFT;
+height:44;
+layout:hbox;
+background:#e8e8e8;
+width:fill;
+valign:center;
+}
+ #button1 {
+height:44;
+widthWrap:45.0;
+font-size:14;
+background:#e8e8e8;
+width:wrap;
+}
+ #label2 {
+halign:center;
+height:26;
+color:#000000;
+font-size:14;
+background:#dbdbdb;
+width:1;
+margin-left:5;
+font-family:default;
+valign:center;
+}
+ #search0 {
+height:44;
+weight:1;
+search-btn-icon:search_left.png;
+color:#000000;
+font:default;
+font-size:14;
+width:0;
+search-del-icon:search_right.png;
+background-image:search_bg;
+}
+ #gaodemapview0 {
+location-img:mixedspot;
+height:0;
+weight:1;
+width:fill;
+around-img:maphot;
+background-image:map;
+}
+ #listviewdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+background:#FFFFFF;
+layout:hbox;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
+}
