@@ -59,7 +59,11 @@ function com$lionbridge$customer$AddressChangeController$loadAddressList(sender,
 	}
 	$ctx.push(json);
 }
+function com$lionbridge$customer$AddressChangeController$openAddressSelect(sender, args){
+	com.lionbridge.customer.GlobalFunction.openAddressPicker();
+}
 com.lionbridge.customer.AddressChangeController.prototype = {
+    openAddressSelect : com$lionbridge$customer$AddressChangeController$openAddressSelect,
     loadAddressList : com$lionbridge$customer$AddressChangeController$loadAddressList,
     closeAddressChange : com$lionbridge$customer$AddressChangeController$closeAddressChange,
     initialize : com$lionbridge$customer$AddressChangeController$initialize,

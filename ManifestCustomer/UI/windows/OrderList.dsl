@@ -3,15 +3,16 @@
 <window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="OrderList" controller="OrderListController" namespace="com.lionbridge.customer">
     <import ref="OrderList.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
+    <script src="#{path.controller}/com.lionbridge.customer.GlobalFunction.js" type="text/javascript"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="一键下单" class="navigatorbarclass">
             <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeOrderList()" type="imagebutton" checked="false"/> 
         </navigatorbar>
         <label id="label0"/>
         <div id="panel0">
-            <input id="button0" value="北京市" class="textbtnclass" type="button"/>
+            <input id="button0" value="北京市" class="textbtnclass" onclick="this.openAddressSelect()" type="button"/>
             <input id="imagebutton1" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-            <input id="button2" value="上海市" class="textbtnclass" type="button"/> 
+            <input id="button2" value="上海市" class="textbtnclass" onclick="this.openAddressSelect()" type="button"/> 
         </div>
         <listView id="listviewdefine0" bindfield="list" onload="this.loadOrder()" onitemclick="this.openOneKeyOrder()">
             <div id="panel1">

@@ -3,6 +3,7 @@
 <window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="Home" controller="HomeController" namespace="com.lionbridge.customer">
     <import ref="Home.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
+    <script src="#{path.controller}/com.lionbridge.customer.GlobalFunction.js" type="text/javascript"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="狮桥超级车队" class="navigatorbarclass">
             <input id="imagebutton0" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" onclick="this.openAbout()" type="imagebutton" checked="false"/>

@@ -68,7 +68,11 @@ function com$lionbridge$customer$OrderListController$openOneKeyOrder(sender, arg
 		"isKeep" : "true"
 	});
 }
+function com$lionbridge$customer$OrderListController$openAddressSelect(sender, args){
+	com.lionbridge.customer.GlobalFunction.openAddressPicker();
+}
 com.lionbridge.customer.OrderListController.prototype = {
+    openAddressSelect : com$lionbridge$customer$OrderListController$openAddressSelect,
     openOneKeyOrder : com$lionbridge$customer$OrderListController$openOneKeyOrder,
     loadOrder : com$lionbridge$customer$OrderListController$loadOrder,
     closeOrderList : com$lionbridge$customer$OrderListController$closeOrderList,

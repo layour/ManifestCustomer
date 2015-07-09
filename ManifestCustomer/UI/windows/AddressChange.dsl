@@ -3,6 +3,7 @@
 <window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="AddressChange" controller="AddressChangeController" namespace="com.lionbridge.customer">
     <import ref="AddressChange.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
+    <script src="#{path.controller}/com.lionbridge.customer.GlobalFunction.js" type="text/javascript"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="选择地址" class="navigatorbarclass">
             <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeAddressChange()" type="imagebutton" checked="false"/>
@@ -11,7 +12,7 @@
         </navigatorbar>
         <label id="label0"/>
         <div id="panel1">
-            <input id="button1" value="北京市" class="textbtnclass" type="button"/>
+            <input id="button1" value="北京市" class="textbtnclass" onclick="this.openAddressSelect()" type="button"/>
             <label id="label2">label</label>
             <search id="search0" placeholder="搜索" localstorage="true"/> 
         </div>
@@ -20,9 +21,9 @@
             <div id="panel0">
                 <div id="panel2">
                     <label id="label3" bindfield="address">北京市</label>
-                    <label id="label4" bindfield="detail">昌平区</label>
+                    <label id="label4" bindfield="detail">昌平区</label> 
                 </div>
-                <input id="imagebutton1" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                <input id="imagebutton1" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
             </div> 
         </listView> 
     </div> 
