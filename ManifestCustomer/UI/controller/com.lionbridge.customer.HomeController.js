@@ -78,18 +78,14 @@ function change03(){
 function change04(){
 	$js.toast("敬请期待。。。");
 }
-function com$lionbridge$customer$HomeController$openOrder(sender, args){
-	$js.toast("敬请期待。。。");
-}
-function com$lionbridge$customer$HomeController$openOneKeyOrder(sender, args){
+function com$lionbridge$customer$HomeController$openOrderList(sender, args){
 	$view.open({
-		"viewid" : "com.lionbridge.customer.OneKeyOrder",//目标页面（首字母大写）全名，
+		"viewid" : "com.lionbridge.customer.OrderList",//目标页面（首字母大写）全名，
 		"isKeep" : "true"
 	});
 }
 com.lionbridge.customer.HomeController.prototype = {
-    openOneKeyOrder : com$lionbridge$customer$HomeController$openOneKeyOrder,
-    openOrder : com$lionbridge$customer$HomeController$openOrder,
+    openOrderList : com$lionbridge$customer$HomeController$openOrderList,
     openSubscribe : com$lionbridge$customer$HomeController$openSubscribe,
     openAddressSelect : com$lionbridge$customer$HomeController$openAddressSelect,
     openOderQuery : com$lionbridge$customer$HomeController$openOderQuery,

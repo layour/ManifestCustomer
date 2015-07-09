@@ -38,7 +38,29 @@ function com$lionbridge$customer$AddressChangeController$evaljs(js){
 function com$lionbridge$customer$AddressChangeController$closeAddressChange(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$AddressChangeController$loadAddressList(sender, args){
+	var json = {
+		list : [{
+			address : "北京市昌平区回龙观",
+			detail : "和谐家园二区12号楼6单元"
+		}, {
+			address : "北京市昌平区回龙观",
+			detail : "和谐家园二区12号楼6单元"
+		}, {
+			address : "北京市昌平区回龙观",
+			detail : "和谐家园二区12号楼6单元"
+		}, {
+			address : "北京市昌平区回龙观",
+			detail : "和谐家园二区12号楼6单元"
+		}, {
+			address : "北京市昌平区回龙观",
+			detail : "和谐家园二区12号楼6单元"
+		}]
+	}
+	$ctx.push(json);
+}
 com.lionbridge.customer.AddressChangeController.prototype = {
+    loadAddressList : com$lionbridge$customer$AddressChangeController$loadAddressList,
     closeAddressChange : com$lionbridge$customer$AddressChangeController$closeAddressChange,
     initialize : com$lionbridge$customer$AddressChangeController$initialize,
     evaljs : com$lionbridge$customer$AddressChangeController$evaljs

@@ -17,11 +17,11 @@
             <imageflipperitem id="imageflipper0_3" title="狮桥资本" description="change04()" src="banner04.png"/> 
         </imageflipper>
         <div id="panel0">
-            <image id="image0" onclick="this.openOrder()" scaletype="fitxy" src="head_discount.png"/> 
+            <image id="image0" onclick="this.openOrderList()" scaletype="fitxy" src="head_discount.png"/> 
         </div>
         <div id="panel1">
             <div id="panel3">
-                <input id="imagebutton1" value="一键下单" istogglebutton="false" class="imagebuttonclass" onclick="this.openOneKeyOrder()" type="imagebutton" checked="false"/> 
+                <input id="imagebutton1" value="一键下单" istogglebutton="false" class="imagebuttonclass" onclick="this.openOrderList()" type="imagebutton" checked="false"/> 
             </div>
             <div id="panel4">
                 <input id="imagebutton3" value="预约起运" istogglebutton="false" class="imagebuttonclass" onclick="this.openSubscribe()" type="imagebutton" checked="false"/> 

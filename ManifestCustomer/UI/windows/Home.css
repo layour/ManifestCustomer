@@ -16,8 +16,8 @@ valign:TOP;
  #navigatorbar0 {
 halign:LEFT;
 color:#d68f2f;
-font-size:20;
 background:#321e12;
+font-size:20;
 }
  #imagebutton0 {
 width:44;
@@ -53,8 +53,8 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
@@ -66,8 +66,8 @@ width:fill;
  #panel0 {
 halign:LEFT;
 height:110;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }

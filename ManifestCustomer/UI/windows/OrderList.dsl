@@ -13,7 +13,7 @@
             <input id="imagebutton1" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
             <input id="button2" value="上海市" class="textbtnclass" type="button"/> 
         </div>
-        <listView id="listviewdefine0" bindfield="list" onload="this.loadOrder()">
+        <listView id="listviewdefine0" bindfield="list" onload="this.loadOrder()" onitemclick="this.openOneKeyOrder()">
             <div id="panel1">
                 <div id="panel2">
                     <div id="panel4">

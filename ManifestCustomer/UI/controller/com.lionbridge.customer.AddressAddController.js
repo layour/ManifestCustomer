@@ -38,7 +38,14 @@ function com$lionbridge$customer$AddressAddController$evaljs(js){
 function com$lionbridge$customer$AddressAddController$closeAddressAdd(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$AddressAddController$openAddressChange(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.customer.AddressChange",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
 com.lionbridge.customer.AddressAddController.prototype = {
+    openAddressChange : com$lionbridge$customer$AddressAddController$openAddressChange,
     closeAddressAdd : com$lionbridge$customer$AddressAddController$closeAddressAdd,
     initialize : com$lionbridge$customer$AddressAddController$initialize,
     evaljs : com$lionbridge$customer$AddressAddController$evaljs

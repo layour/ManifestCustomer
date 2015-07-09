@@ -31,7 +31,7 @@
             <label id="label3"/>
             <div id="panel2">
                 <input id="imagebutton1" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox0" maxlength="256" placeholder="选择地址" type="text"/> 
+                <input id="textbox0" maxlength="256" placeholder="选择地址" type="text" onchange="this.openAddressChange()"/> 
             </div>
             <label id="label2"/>
             <div id="panel3">

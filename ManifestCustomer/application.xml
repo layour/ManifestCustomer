@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<application id="ManifestCustomer" appname="超级车队" versionCode="1" versionName="1" icon="app" theme="orange" jsengine="v2.0" package="com.lionbridge.customer" language="zh_cn" autoCheckUpdate="false" isLibrary="false"> 
+<application id="ManifestCustomer" appname="超级车队" versionCode="1" versionName="1" icon="app" theme="orange" jsengine="v2.0" package="com.lionbridge.customer" language="zh_cn" autoCheckUpdate="false" isLibrary="false" push_enable="false"> 
   <permission id="internet"/>  
   <start view="Login"/>  
   <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
@@ -38,9 +38,16 @@
   <view id="Invoice" ref="Invoice.dsl" include="true"> 
     <extend statusbarcolor="#321e12"/> 
   </view>  
-  <view id="OrderList" ref="OrderList.dsl" include="true"/>  
-  <view id="OneKeyOrder" ref="OneKeyOrder.dsl" include="true"/>  
-  <view id="AddressChange" ref="AddressChange.dsl" include="true"/>
+  <view id="OrderList" ref="OrderList.dsl" include="true"> 
+    <extend statusbarcolor="#321e12"/> 
+  </view>  
+  <view id="OneKeyOrder" ref="OneKeyOrder.dsl" include="true"> 
+    <extend statusbarcolor="#321e12"/> 
+  </view>  
+  <view id="AddressChange" ref="AddressChange.dsl" include="true"> 
+    <extend statusbarcolor="#321e12"/> 
+  </view>  
+  <import id="gaodeMap" type="mobile" ref="component"/> 
 </application>
 <!--
 【屏幕显示方向】

@@ -62,7 +62,14 @@ function com$lionbridge$customer$OrderListController$loadOrder(sender, args){
 	}
 	$ctx.push(json);
 }
+function com$lionbridge$customer$OrderListController$openOneKeyOrder(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.customer.OneKeyOrder",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
 com.lionbridge.customer.OrderListController.prototype = {
+    openOneKeyOrder : com$lionbridge$customer$OrderListController$openOneKeyOrder,
     loadOrder : com$lionbridge$customer$OrderListController$loadOrder,
     closeOrderList : com$lionbridge$customer$OrderListController$closeOrderList,
     initialize : com$lionbridge$customer$OrderListController$initialize,

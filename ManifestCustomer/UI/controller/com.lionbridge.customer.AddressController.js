@@ -61,7 +61,7 @@ function com$lionbridge$customer$AddressController$loadAddress(sender, args){
 }
 function com$lionbridge$customer$AddressController$openAddAddress(sender, args){
 	$view.open({
-		"viewid" : "com.lionbridge.customer.AddAddress",//目标页面（首字母大写）全名，
+		"viewid" : "com.lionbridge.customer.AddressAdd",//目标页面（首字母大写）全名，
 		"isKeep" : "true"
 	});
 }

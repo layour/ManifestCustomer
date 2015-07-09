@@ -55,6 +55,14 @@ width:fill;
 font-family:default;
 valign:center;
 }
+ #panel7 {
+halign:left;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:CENTER;
+}
  #panel0 {
 padding-left:10;
 padding-right:10;
@@ -288,9 +296,8 @@ valign:center;
  #panel8 {
 padding-left:10;
 padding-right:10;
-halign:right;
-height:wrap;
-heightWrap:90.0;
+halign:center;
+height:90.0;
 background:#ffffff;
 layout:vbox;
 width:fill;
@@ -319,29 +326,25 @@ width:fill;
 font-family:default;
 valign:center;
 }
+ #panel19 {
+halign:CENTER;
+height:0;
+weight:1;
+layout:hbox;
+width:fill;
+valign:center;
+}
  #button4 {
-border-bottom-width:1;
-border-radius:5;
-width:90;
-border-bottom-color:#d68f2f;
-border-top-width:1;
-border-left-color:#d68f2f;
-border-top-color:#d68f2f;
-height:26;
-color:#ffffff;
-border-right-color:#d68f2f;
-background:#d68f2f;
+height:44;
+widthWrap:285.0;
 font-size:14;
-border-right-width:1;
-margin-top:15;
-border-left-width:1;
+width:wrap;
 }
  #panel9 {
 padding-left:10;
 padding-right:10;
-halign:right;
-height:wrap;
-heightWrap:90.0;
+halign:center;
+height:90.0;
 background:#ffffff;
 layout:vbox;
 width:fill;
@@ -370,22 +373,19 @@ width:fill;
 font-family:default;
 valign:center;
 }
+ #panel21 {
+halign:CENTER;
+height:0;
+weight:1;
+layout:hbox;
+width:fill;
+valign:center;
+}
  #button5 {
-border-bottom-width:1;
-border-radius:5;
-width:90;
-border-bottom-color:#d68f2f;
-border-top-width:1;
-border-left-color:#d68f2f;
-border-top-color:#d68f2f;
-height:26;
-color:#ffffff;
-border-right-color:#d68f2f;
-background:#d68f2f;
+height:44;
+widthWrap:285.0;
 font-size:14;
-border-right-width:1;
-margin-top:15;
-border-left-width:1;
+width:wrap;
 }
  #panel10 {
 padding-left:10;
@@ -678,8 +678,7 @@ valign:center;
 padding-left:10;
 padding-right:10;
 halign:LEFT;
-height:wrap;
-heightWrap:44.0;
+height:44.0;
 background:#eaebed;
 layout:hbox;
 width:fill;
@@ -704,10 +703,9 @@ valign:center;
 }
  #label11 {
 halign:center;
-height:wrap;
+height:30;
 widthWrap:130.0;
 color:#1f82e6;
-heightWrap:18.0;
 font-size:12;
 width:wrap;
 font-family:default;

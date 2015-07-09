@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><application id="ManifestCustomer" appname="ManifestCustomer" versionCode="1" versionName="1" icon="app" jsengine="v2.0"><permission id="internet"></permission><components><component name="ManifestCustomer" start="true"></component></components></application>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application id="ManifestCustomer" appname="ManifestCustomer" versionCode="1" versionName="1" icon="app" jsengine="v2.0" push_enable="false"> 
+  <permission id="internet"/>  
+  <components> 
+    <component name="ManifestCustomer" start="true"/> 
+  </components>  
+  <import id="gaodeMap" type="mobile" ref="component"/> 
+</application>
