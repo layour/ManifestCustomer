@@ -8,7 +8,7 @@
         <navigatorbar id="navigatorbar0" title="选择地址" class="navigatorbarclass">
             <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeAddressChange()" type="imagebutton" checked="false"/>
             <label id="label1"/>
-            <input id="button0" value="确定" class="textbtnclass" type="button"/> 
+            <input id="button0" value="确定" class="textbtnclass" onclick="this.closeAddressChange()" type="button"/> 
         </navigatorbar>
         <label id="label0"/>
         <div id="panel1">

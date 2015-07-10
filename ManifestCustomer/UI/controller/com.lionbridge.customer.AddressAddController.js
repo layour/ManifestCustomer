@@ -41,8 +41,14 @@ function com$lionbridge$customer$AddressAddController$closeAddressAdd(sender, ar
 function com$lionbridge$customer$AddressAddController$openAddressChange(sender, args){
 	$view.open({
 		"viewid" : "com.lionbridge.customer.AddressChange",//目标页面（首字母大写）全名，
-		"isKeep" : "true"
+		"isKeep" : "true",//保留当前页面不关闭
+		"callback":"addressChangeCallBack()"//回调的JS方法
 	});
+}
+function addressChangeCallBack(){
+	var result = $param.getJSONObject("result");
+	$id("label6").set("value", result.address);
+	$id("label6").set("color", "#167ef8");
 }
 com.lionbridge.customer.AddressAddController.prototype = {
     openAddressChange : com$lionbridge$customer$AddressAddController$openAddressChange,

@@ -36,7 +36,9 @@ function com$lionbridge$customer$AddressChangeController$evaljs(js){
     eval(js)
 }
 function com$lionbridge$customer$AddressChangeController$closeAddressChange(sender, args){
-	$view.close();
+	$view.closeWithCallBack({
+		"result" : "{address : '北京市昌平区回龙观'}"
+	});
 }
 function com$lionbridge$customer$AddressChangeController$loadAddressList(sender, args){
 	var json = {
