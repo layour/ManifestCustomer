@@ -5,7 +5,7 @@
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
         <div id="panel0">
-            <image id="image0" scaletype="fitcenter" src="app.png"/> 
+            <image id="image0" scaletype="fitcenter" src="logo.png"/> 
         </div>
         <div id="panel1">
             <div id="panel3">
