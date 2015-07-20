@@ -64,6 +64,12 @@ function com$lionbridge$customer$AddressChangeController$loadAddressList(sender,
 function com$lionbridge$customer$AddressChangeController$openAddressSelect(sender, args){
 	com.lionbridge.customer.GlobalFunction.openAddressPicker();
 }
+function pickerOk(){
+	var data = $ctx.getString("city");
+    data = $stringToJSON(data);
+    var result = data.content;
+	$id("button1").set("value", result);
+}
 com.lionbridge.customer.AddressChangeController.prototype = {
     openAddressSelect : com$lionbridge$customer$AddressChangeController$openAddressSelect,
     loadAddressList : com$lionbridge$customer$AddressChangeController$loadAddressList,

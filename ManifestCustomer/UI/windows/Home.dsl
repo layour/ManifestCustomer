@@ -8,7 +8,7 @@
         <navigatorbar id="navigatorbar0" title="狮桥超级车队" class="navigatorbarclass">
             <input id="imagebutton0" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" onclick="this.openAbout()" type="imagebutton" checked="false"/>
             <label id="label0"/>
-            <input id="imagebutton4" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" onclick="this.openAddressSelect()" type="imagebutton" checked="false"/> 
+            <input id="button0" value="北京市" class="textbtnclass" onclick="this.openAddressSelect()" type="button"/> 
         </navigatorbar>
         <label id="label1"/>
         <imageflipper titleheight="20" id="imageflipper0" descheight="0" interval="2000" flipperbtnvisible="false" isloop="true" scaletype="fitxy" autoflip="true">

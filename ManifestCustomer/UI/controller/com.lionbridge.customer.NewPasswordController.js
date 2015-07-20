@@ -38,11 +38,7 @@ function com$lionbridge$customer$NewPasswordController$evaljs(js){
 function com$lionbridge$customer$NewPasswordController$closeNewPassword(sender, args){
 	$view.close();
 }
-function com$lionbridge$customer$NewPasswordController$openAddressChange(sender, args){
-	com.lionbridge.customer.GlobalFunction.openAddressPicker();
-}
 com.lionbridge.customer.NewPasswordController.prototype = {
-    openAddressChange : com$lionbridge$customer$NewPasswordController$openAddressChange,
     closeNewPassword : com$lionbridge$customer$NewPasswordController$closeNewPassword,
     initialize : com$lionbridge$customer$NewPasswordController$initialize,
     evaljs : com$lionbridge$customer$NewPasswordController$evaljs

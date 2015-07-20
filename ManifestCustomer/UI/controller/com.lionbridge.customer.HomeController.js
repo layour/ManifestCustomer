@@ -50,6 +50,12 @@ function com$lionbridge$customer$HomeController$openOderQuery(sender, args){
 function com$lionbridge$customer$HomeController$openAddressSelect(sender, args){
 	com.lionbridge.customer.GlobalFunction.openAddressPicker();
 }
+function pickerOk(){
+	var data = $ctx.getString("city");
+    data = $stringToJSON(data);
+    var result = data.content;
+	$id("button0").set("value", result);
+}
 function com$lionbridge$customer$HomeController$openSubscribe(sender, args){
 	$js.toast("敬请期待。。。");
 }

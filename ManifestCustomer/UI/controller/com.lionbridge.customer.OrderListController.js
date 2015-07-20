@@ -31,6 +31,9 @@ function com$lionbridge$customer$OrderListController$initialize(){
     //your initialize code below...
     
 }
+
+//全局变量定义
+var senderStr = "button0";
     
 function com$lionbridge$customer$OrderListController$evaljs(js){
     eval(js)
@@ -69,7 +72,14 @@ function com$lionbridge$customer$OrderListController$openOneKeyOrder(sender, arg
 	});
 }
 function com$lionbridge$customer$OrderListController$openAddressSelect(sender, args){
+	senderStr = sender;
 	com.lionbridge.customer.GlobalFunction.openAddressPicker();
+}
+function pickerOk(){
+	var data = $ctx.getString("city");
+    data = $stringToJSON(data);
+    var result = data.content;
+	$id(senderStr).set("value", result);
 }
 com.lionbridge.customer.OrderListController.prototype = {
     openAddressSelect : com$lionbridge$customer$OrderListController$openAddressSelect,

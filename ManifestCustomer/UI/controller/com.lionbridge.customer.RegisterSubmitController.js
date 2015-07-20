@@ -41,6 +41,12 @@ function com$lionbridge$customer$RegisterSubmitController$closeRegisterSubmit(se
 function com$lionbridge$customer$RegisterSubmitController$openAddressChange(sender, args){
 	com.lionbridge.customer.GlobalFunction.openAddressPicker();
 }
+function pickerOk(){
+	var data = $ctx.getString("city");
+    data = $stringToJSON(data);
+    var result = data.content;
+	$id("label9").set("value", result);
+}
 com.lionbridge.customer.RegisterSubmitController.prototype = {
     openAddressChange : com$lionbridge$customer$RegisterSubmitController$openAddressChange,
     closeRegisterSubmit : com$lionbridge$customer$RegisterSubmitController$closeRegisterSubmit,
