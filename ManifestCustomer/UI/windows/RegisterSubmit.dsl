@@ -29,12 +29,12 @@
             <label id="label4"/>
             <div id="panel1">
                 <input id="imagebutton2" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox1" maxlength="256" placeholder="请输入6-16的数字或字母密码" type="text"/> 
+                <input id="textbox1" maxlength="256" placeholder="请输入6-16的数字或字母密码" type="password"/> 
             </div>
             <label id="label5"/>
             <div id="panel3">
                 <input id="imagebutton3" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox2" maxlength="256" placeholder="请再次输入6-16的数字或字母密码" type="text"/> 
+                <input id="textbox2" maxlength="256" placeholder="请再次输入6-16的数字或字母密码" type="password"/> 
             </div> 
         </div>
         <div id="panel4">
