@@ -46,6 +46,7 @@ function pickerOk(){
     data = $stringToJSON(data);
     var result = data.content;
 	$id("label9").set("value", result);
+	$id("label9").set("color", "#167ef8");
 }
 com.lionbridge.customer.RegisterSubmitController.prototype = {
     openAddressChange : com$lionbridge$customer$RegisterSubmitController$openAddressChange,
