@@ -57,12 +57,55 @@ valign:center;
 }
  #panel0 {
 halign:center;
-height:179;
+height:224;
 background:#ffffff;
 layout:vbox;
 width:fill;
 margin-top:10;
 valign:TOP;
+}
+ #panel5 {
+padding-left:10;
+padding-right:10;
+halign:LEFT;
+height:44;
+layout:hbox;
+background:#ffffff;
+width:fill;
+valign:center;
+}
+ #imagebutton5 {
+width:44;
+icon-width:22;
+font-pressed-color:#e50011;
+icon-height:22;
+height:44;
+font-size:10;
+icon-background-image:tab_position_touch.png;
+icon-text-spacing:3;
+}
+ #label9 {
+padding-left:4;
+halign:left;
+height:44;
+weight:1;
+color:#d6d6d6;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label2 {
+margin-right:10;
+halign:center;
+height:1;
+color:#000000;
+background:#dbdbdb;
+font-size:14;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
 }
  #panel7 {
 padding-left:10;

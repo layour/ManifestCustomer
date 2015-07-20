@@ -13,27 +13,27 @@
         <div id="panel0">
             <div id="panel6">
                 <input id="imagebutton3" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox2" maxlength="256" placeholder="公司名称（必填）" type="text"/> 
+                <input id="textbox2" maxlength="256" placeholder="请输入公司名称（必填）" type="text"/> 
             </div>
             <label id="label4"/>
             <div id="panel7">
                 <input id="imagebutton4" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox3" maxlength="256" placeholder="申请金额（必填，最大可申请0元）" type="text"/> 
+                <input id="textbox3" maxlength="256" placeholder="请输入申请金额（必填，最大可申请0元）" type="text"/> 
             </div>
             <label id="label3"/>
             <div id="panel2">
                 <input id="imagebutton1" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox0" maxlength="256" placeholder="收件人姓名（必填）" type="text"/> 
+                <input id="textbox0" maxlength="256" placeholder="请输入收件人姓名（必填）" type="text"/> 
             </div>
             <label id="label2"/>
             <div id="panel3">
                 <input id="imagebutton2" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox1" maxlength="256" placeholder="收件人联系电话（必填）" type="text"/> 
+                <input id="textbox1" maxlength="256" placeholder="请输入收件人联系电话（必填）" type="text"/> 
             </div>
             <label id="label5"/>
             <div id="panel1">
                 <input id="imagebutton5" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox4" maxlength="256" placeholder="收件地址（必填）" type="text"/> 
+                <input id="textbox4" maxlength="256" placeholder="请输入收件地址（必填）" type="text"/> 
             </div> 
         </div> 
     </div> 

@@ -38,7 +38,11 @@ function com$lionbridge$customer$RegisterSubmitController$evaljs(js){
 function com$lionbridge$customer$RegisterSubmitController$closeRegisterSubmit(sender, args){
 	$view.close();
 }
+function com$lionbridge$customer$RegisterSubmitController$openAddressChange(sender, args){
+	com.lionbridge.customer.GlobalFunction.openAddressPicker();
+}
 com.lionbridge.customer.RegisterSubmitController.prototype = {
+    openAddressChange : com$lionbridge$customer$RegisterSubmitController$openAddressChange,
     closeRegisterSubmit : com$lionbridge$customer$RegisterSubmitController$closeRegisterSubmit,
     initialize : com$lionbridge$customer$RegisterSubmitController$initialize,
     evaljs : com$lionbridge$customer$RegisterSubmitController$evaljs

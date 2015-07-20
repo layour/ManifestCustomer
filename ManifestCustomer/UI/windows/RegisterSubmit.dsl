@@ -3,6 +3,7 @@
 <window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="RegisterSubmit" controller="RegisterSubmitController" namespace="com.lionbridge.customer">
     <import ref="RegisterSubmit.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
+    <script src="#{path.controller}/com.lionbridge.customer.GlobalFunction.js" type="text/javascript"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="注册" class="navigatorbarclass">
             <input id="imagebutton0" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" onclick="this.closeRegisterSubmit()" type="imagebutton" checked="false"/>
@@ -11,6 +12,11 @@
         </navigatorbar>
         <label id="label0"/>
         <div id="panel0">
+            <div id="panel5">
+                <input id="imagebutton5" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                <label id="label9" onclick="this.openAddressChange()">请选择地址</label> 
+            </div>
+            <label id="label2"/>
             <div id="panel7">
                 <input id="imagebutton4" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
                 <input id="textbox3" maxlength="256" placeholder="请输入联系人名称" type="text"/> 
