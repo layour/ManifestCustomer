@@ -1,0 +1,78 @@
+ #CallService {
+halign:center;
+height:150;
+layout:vbox;
+width:250;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+border-radius:10;
+layout:vbox;
+background:#ffffff;
+width:fill;
+valign:CENTER;
+}
+ #image0 {
+height:56;
+width:56;
+}
+ #label0 {
+halign:center;
+height:wrap;
+widthWrap:135.0;
+color:#000000;
+heightWrap:19.0;
+font-size:14;
+width:wrap;
+margin-bottom:10;
+font-family:default;
+margin-top:10;
+valign:center;
+}
+ #panel0 {
+halign:CENTER;
+height:44;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #button0 {
+border-bottom-width:1;
+weight:1;
+border-radius:5;
+width:0;
+border-bottom-color:#d6d6d6;
+border-top-width:1;
+margin-right:5;
+border-left-color:#d6d6d6;
+border-top-color:#d6d6d6;
+height:30;
+color:#ffffff;
+border-right-color:#d6d6d6;
+background:#d6d6d6;
+font-size:16;
+margin-left:20;
+border-right-width:1;
+border-left-width:1;
+}
+ #button1 {
+border-bottom-width:1;
+weight:1;
+border-radius:5;
+width:0;
+font-pressed-color:#00a1ea;
+border-bottom-color:#ec5f1a;
+border-top-width:1;
+margin-right:20;
+border-left-color:#ec5f1a;
+border-top-color:#ec5f1a;
+height:30;
+border-right-color:#ec5f1a;
+background:#ec5f1a;
+font-size:16;
+margin-left:5;
+border-right-width:1;
+border-left-width:1;
+}

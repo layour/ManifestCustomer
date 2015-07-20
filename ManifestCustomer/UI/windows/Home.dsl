@@ -33,7 +33,7 @@
                 <input id="imagebutton2" value="订单查询" istogglebutton="false" class="imagebuttonclass" onclick="this.openOderQuery()" type="imagebutton" checked="false"/> 
             </div>
             <div id="panel6">
-                <input id="imagebutton5" value="一键客服" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                <input id="imagebutton5" value="一键客服" istogglebutton="false" class="imagebuttonclass" onclick="this.openCallService()" type="imagebutton" checked="false"/> 
             </div> 
         </div> 
     </div> 

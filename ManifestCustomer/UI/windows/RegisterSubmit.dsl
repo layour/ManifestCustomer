@@ -10,7 +10,6 @@
             <input id="button0" value="提交" class="textbtnclass" type="button"/> 
         </navigatorbar>
         <label id="label0"/>
-        <label id="label2">label</label>
         <div id="panel0">
             <div id="panel7">
                 <input id="imagebutton4" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>

@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.customer.LoginController');
-com.lionbridge.customer.LoginController = function() {
-    com.lionbridge.customer.LoginController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.customer.CallServiceController');
+com.lionbridge.customer.CallServiceController = function() {
+    com.lionbridge.customer.CallServiceController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$customer$LoginController$initialize(){
+function com$lionbridge$customer$CallServiceController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,26 +32,20 @@ function com$lionbridge$customer$LoginController$initialize(){
     
 }
     
-function com$lionbridge$customer$LoginController$evaljs(js){
+function com$lionbridge$customer$CallServiceController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$customer$LoginController$login(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.customer.Home",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
-	});
+function com$lionbridge$customer$CallServiceController$callPhone(sender, args){
+	$tel.call("4000800056");
 }
-function com$lionbridge$customer$LoginController$openRegister(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.customer.Register",//目标页面（首字母大写）全名，
-		"isKeep" : "true"
-	});
+function com$lionbridge$customer$CallServiceController$closeCallService(sender, args){
+	$window.close();
 }
-com.lionbridge.customer.LoginController.prototype = {
-    openRegister : com$lionbridge$customer$LoginController$openRegister,
-    login : com$lionbridge$customer$LoginController$login,
-    initialize : com$lionbridge$customer$LoginController$initialize,
-    evaljs : com$lionbridge$customer$LoginController$evaljs
+com.lionbridge.customer.CallServiceController.prototype = {
+    closeCallService : com$lionbridge$customer$CallServiceController$closeCallService,
+    callPhone : com$lionbridge$customer$CallServiceController$callPhone,
+    initialize : com$lionbridge$customer$CallServiceController$initialize,
+    evaljs : com$lionbridge$customer$CallServiceController$evaljs
 };
-com.lionbridge.customer.LoginController.registerClass('com.lionbridge.customer.LoginController',UMP.UI.Mvc.Controller);
+com.lionbridge.customer.CallServiceController.registerClass('com.lionbridge.customer.CallServiceController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}

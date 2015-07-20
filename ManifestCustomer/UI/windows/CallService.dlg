@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="CallService" controller="CallServiceController" type="dialog" namespace="com.lionbridge.customer">
+    <import ref="CallService.css" type="css"/>
+    <link type="text/css" href="sys/theme.css"/>
+    <div id="viewPage0">
+        <image id="image0" scaletype="fitcenter" src="head_warn.png"/>
+        <label id="label0">拨打：4000-8000-56</label>
+        <div id="panel0">
+            <input id="button0" value="取消" class="textbtnclass" onclick="this.closeCallService()" type="button"/>
+            <input id="button1" value="拨打" class="buttonclass loginbuttonclass" onclick="this.callPhone()" type="button"/> 
+        </div> 
+    </div> 
+</window>

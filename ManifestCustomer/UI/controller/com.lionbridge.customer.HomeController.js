@@ -71,7 +71,18 @@ function com$lionbridge$customer$HomeController$openOrderList(sender, args){
 		"isKeep" : "true"
 	});
 }
+function com$lionbridge$customer$HomeController$openCallService(sender, args){
+	$window.showModalDialog({
+		"dialogId" : "com.lionbridge.customer.CallService",//Dialog的唯一标识（包名+ID），ID要求首字母大写
+		"features" : {
+			"dialogWidth" : "250",
+			"dialogHeight" : "150"
+		},
+		"animation-type" : "bottom"//弹出Dialog的起始位置，取值范围为top|bottom|left|right|center
+	})
+}
 com.lionbridge.customer.HomeController.prototype = {
+    openCallService : com$lionbridge$customer$HomeController$openCallService,
     openOrderList : com$lionbridge$customer$HomeController$openOrderList,
     openSubscribe : com$lionbridge$customer$HomeController$openSubscribe,
     openAddressSelect : com$lionbridge$customer$HomeController$openAddressSelect,
