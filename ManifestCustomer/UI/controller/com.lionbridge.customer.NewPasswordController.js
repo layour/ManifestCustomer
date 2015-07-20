@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.customer.LoginController');
-com.lionbridge.customer.LoginController = function() {
-    com.lionbridge.customer.LoginController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.customer.NewPasswordController');
+com.lionbridge.customer.NewPasswordController = function() {
+    com.lionbridge.customer.NewPasswordController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$customer$LoginController$initialize(){
+function com$lionbridge$customer$NewPasswordController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,33 +32,20 @@ function com$lionbridge$customer$LoginController$initialize(){
     
 }
     
-function com$lionbridge$customer$LoginController$evaljs(js){
+function com$lionbridge$customer$NewPasswordController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$customer$LoginController$login(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.customer.Home",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
-	});
+function com$lionbridge$customer$NewPasswordController$closeNewPassword(sender, args){
+	$view.close();
 }
-function com$lionbridge$customer$LoginController$openRegister(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.customer.Register",//目标页面（首字母大写）全名，
-		"isKeep" : "true"
-	});
+function com$lionbridge$customer$NewPasswordController$openAddressChange(sender, args){
+	com.lionbridge.customer.GlobalFunction.openAddressPicker();
 }
-function com$lionbridge$customer$LoginController$openRetrievePassword(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.customer.RetrievePassword",//目标页面（首字母大写）全名，
-		"isKeep" : "true"
-	});
-}
-com.lionbridge.customer.LoginController.prototype = {
-    openRetrievePassword : com$lionbridge$customer$LoginController$openRetrievePassword,
-    openRegister : com$lionbridge$customer$LoginController$openRegister,
-    login : com$lionbridge$customer$LoginController$login,
-    initialize : com$lionbridge$customer$LoginController$initialize,
-    evaljs : com$lionbridge$customer$LoginController$evaljs
+com.lionbridge.customer.NewPasswordController.prototype = {
+    openAddressChange : com$lionbridge$customer$NewPasswordController$openAddressChange,
+    closeNewPassword : com$lionbridge$customer$NewPasswordController$closeNewPassword,
+    initialize : com$lionbridge$customer$NewPasswordController$initialize,
+    evaljs : com$lionbridge$customer$NewPasswordController$evaljs
 };
-com.lionbridge.customer.LoginController.registerClass('com.lionbridge.customer.LoginController',UMP.UI.Mvc.Controller);
+com.lionbridge.customer.NewPasswordController.registerClass('com.lionbridge.customer.NewPasswordController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}
