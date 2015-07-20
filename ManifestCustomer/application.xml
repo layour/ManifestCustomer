@@ -60,8 +60,8 @@
   <view id="RetrievePassword" ref="RetrievePassword.dsl" include="true"> 
     <extend statusbarcolor="#321e12"/> 
   </view>  
-  <view id="NewPassword" ref="NewPassword.dsl" include="true">
-    <extend statusbarcolor="#321e12"/>
+  <view id="NewPassword" ref="NewPassword.dsl" include="true"> 
+    <extend statusbarcolor="#321e12"/> 
   </view> 
 </application>
 <!--
