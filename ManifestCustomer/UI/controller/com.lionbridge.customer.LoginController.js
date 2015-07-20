@@ -41,7 +41,14 @@ function com$lionbridge$customer$LoginController$login(sender, args){
 		"isKeep" : "false"
 	});
 }
+function com$lionbridge$customer$LoginController$openRegister(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.customer.Register",//目标页面（首字母大写）全名，
+		"isKeep" : "false"
+	});
+}
 com.lionbridge.customer.LoginController.prototype = {
+    openRegister : com$lionbridge$customer$LoginController$openRegister,
     login : com$lionbridge$customer$LoginController$login,
     initialize : com$lionbridge$customer$LoginController$initialize,
     evaljs : com$lionbridge$customer$LoginController$evaljs

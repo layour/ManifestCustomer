@@ -25,7 +25,7 @@
             </div>
             <input id="button0" value="登录" class="buttonclass loginbuttonclass" onclick="this.login()" type="button"/>
             <div id="panel6">
-                <label id="label1">立即注册</label>
+                <label id="label1" onclick="this.openRegister()">立即注册</label>
                 <label id="label2">忘记密码</label> 
             </div> 
         </div>

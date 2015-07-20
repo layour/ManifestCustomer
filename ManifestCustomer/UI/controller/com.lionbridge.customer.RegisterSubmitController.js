@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.customer.RegisterController');
-com.lionbridge.customer.RegisterController = function() {
-    com.lionbridge.customer.RegisterController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.customer.RegisterSubmitController');
+com.lionbridge.customer.RegisterSubmitController = function() {
+    com.lionbridge.customer.RegisterSubmitController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$customer$RegisterController$initialize(){
+function com$lionbridge$customer$RegisterSubmitController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,23 +32,16 @@ function com$lionbridge$customer$RegisterController$initialize(){
     
 }
     
-function com$lionbridge$customer$RegisterController$evaljs(js){
+function com$lionbridge$customer$RegisterSubmitController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$customer$RegisterController$closeRegister(sender, args){
+function com$lionbridge$customer$RegisterSubmitController$closeRegisterSubmit(sender, args){
 	$view.close();
 }
-function com$lionbridge$customer$RegisterController$openRegisterSubmit(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.customer.RegisterSubmit",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
-	});
-}
-com.lionbridge.customer.RegisterController.prototype = {
-    openRegisterSubmit : com$lionbridge$customer$RegisterController$openRegisterSubmit,
-    closeRegister : com$lionbridge$customer$RegisterController$closeRegister,
-    initialize : com$lionbridge$customer$RegisterController$initialize,
-    evaljs : com$lionbridge$customer$RegisterController$evaljs
+com.lionbridge.customer.RegisterSubmitController.prototype = {
+    closeRegisterSubmit : com$lionbridge$customer$RegisterSubmitController$closeRegisterSubmit,
+    initialize : com$lionbridge$customer$RegisterSubmitController$initialize,
+    evaljs : com$lionbridge$customer$RegisterSubmitController$evaljs
 };
-com.lionbridge.customer.RegisterController.registerClass('com.lionbridge.customer.RegisterController',UMP.UI.Mvc.Controller);
+com.lionbridge.customer.RegisterSubmitController.registerClass('com.lionbridge.customer.RegisterSubmitController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}

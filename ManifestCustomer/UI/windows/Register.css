@@ -56,13 +56,23 @@ width:fill;
 font-family:default;
 valign:center;
 }
+ #label2 {
+margin-right:10;
+halign:left;
+height:44;
+color:#6d6d6d;
+font-size:12;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
  #panel0 {
 halign:center;
 height:89;
 layout:vbox;
 background:#ffffff;
 width:fill;
-margin-top:10;
 valign:TOP;
 }
  #panel7 {
@@ -138,4 +148,21 @@ font-size:14;
 background:#ffffff;
 width:0;
 font-family:default;
+}
+ #button1 {
+height:30;
+font-size:14;
+width:90;
+}
+ #label4 {
+margin-right:10;
+halign:left;
+height:44;
+color:#323232;
+font-size:12;
+width:fill;
+margin-left:10;
+font-family:default;
+margin-top:10;
+valign:center;
 }

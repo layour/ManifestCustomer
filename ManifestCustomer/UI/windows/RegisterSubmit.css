@@ -1,0 +1,285 @@
+ #RegisterSubmit {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#ededed;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+color:#d68f2f;
+background:#321e12;
+font-size:20;
+}
+ #imagebutton0 {
+width:44;
+icon-width:15;
+font-pressed-color:#e50011;
+icon-height:21;
+height:44;
+font-size:10;
+icon-background-image:i_back.png;
+icon-text-spacing:3;
+}
+ #label1 {
+halign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #button0 {
+height:44;
+color:#d68f2f;
+font-size:16;
+width:44;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+font-size:14;
+background:#ec9e34;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #label2 {
+halign:center;
+height:wrap;
+widthWrap:32.0;
+color:#000000;
+heightWrap:14.0;
+font-size:14;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #panel0 {
+halign:center;
+height:179;
+layout:vbox;
+background:#ffffff;
+width:fill;
+margin-top:10;
+valign:TOP;
+}
+ #panel7 {
+padding-right:10;
+padding-left:10;
+halign:LEFT;
+height:44;
+background:#ffffff;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #imagebutton4 {
+width:44;
+icon-width:22;
+font-pressed-color:#e50011;
+icon-height:22;
+height:44;
+font-size:10;
+icon-background-image:tab_concact_touch.png;
+icon-text-spacing:3;
+}
+ #textbox3 {
+padding-left:4;
+halign:LEFT;
+height:44;
+weight:1;
+color:#167ef8;
+font-size:14;
+background:#ffffff;
+width:0;
+font-family:default;
+}
+ #label3 {
+margin-right:10;
+halign:center;
+height:1;
+color:#000000;
+font-size:14;
+background:#dbdbdb;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #panel2 {
+padding-right:10;
+padding-left:10;
+halign:LEFT;
+height:44;
+background:#ffffff;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #imagebutton1 {
+width:44;
+icon-width:22;
+font-pressed-color:#e50011;
+icon-height:22;
+height:44;
+font-size:10;
+icon-background-image:tab_channel_touch.png;
+icon-text-spacing:3;
+}
+ #textbox0 {
+padding-left:4;
+halign:LEFT;
+height:44;
+weight:1;
+color:#167ef8;
+font-size:14;
+background:#ffffff;
+width:0;
+font-family:default;
+}
+ #label4 {
+margin-right:10;
+halign:center;
+height:1;
+color:#000000;
+font-size:14;
+background:#dbdbdb;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #panel1 {
+padding-right:10;
+padding-left:10;
+halign:LEFT;
+height:44;
+background:#ffffff;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #imagebutton2 {
+width:44;
+icon-width:22;
+font-pressed-color:#e50011;
+icon-height:22;
+height:44;
+font-size:10;
+icon-background-image:tool_key_touch.png;
+icon-text-spacing:3;
+}
+ #textbox1 {
+padding-left:4;
+halign:LEFT;
+height:44;
+weight:1;
+color:#167ef8;
+font-size:14;
+background:#ffffff;
+width:0;
+font-family:default;
+}
+ #label5 {
+margin-right:10;
+halign:center;
+height:1;
+color:#000000;
+font-size:14;
+background:#dbdbdb;
+width:fill;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #panel3 {
+padding-right:10;
+padding-left:10;
+halign:LEFT;
+height:44;
+background:#ffffff;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #imagebutton3 {
+width:44;
+icon-width:22;
+font-pressed-color:#e50011;
+icon-height:22;
+height:44;
+font-size:10;
+icon-background-image:tool_key_touch.png;
+icon-text-spacing:3;
+}
+ #textbox2 {
+padding-left:4;
+halign:LEFT;
+height:44;
+weight:1;
+color:#167ef8;
+font-size:14;
+background:#ffffff;
+width:0;
+font-family:default;
+}
+ #panel4 {
+padding-right:10;
+padding-left:10;
+halign:LEFT;
+height:44.0;
+layout:hbox;
+background:#eaebed;
+width:fill;
+valign:center;
+}
+ #checkbox0 {
+height:36;
+width:36;
+check-on-image:checkbox_select;
+check-off-image:checkbox_noselect;
+}
+ #label6 {
+halign:center;
+height:wrap;
+widthWrap:39.0;
+color:#000000;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label7 {
+halign:center;
+height:30;
+widthWrap:104.0;
+color:#1f82e6;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #label8 {
+halign:center;
+height:wrap;
+widthWrap:13.0;
+color:#000000;
+heightWrap:18.0;
+font-size:12;
+width:wrap;
+font-family:default;
+valign:center;
+}
