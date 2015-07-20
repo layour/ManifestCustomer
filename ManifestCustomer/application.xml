@@ -48,9 +48,15 @@
     <extend statusbarcolor="#321e12"/> 
   </view>  
   <import id="gaodeMap" type="mobile" ref="component"/>  
-  <view id="Register" ref="Register.dsl" include="true"/>  
-  <view id="RegisterSubmit" ref="RegisterSubmit.dsl" include="true"/>  
-  <view id="CallService" ref="CallService.dlg" include="true"/> 
+  <view id="Register" ref="Register.dsl" include="true"> 
+    <extend statusbarcolor="#321e12"/> 
+  </view>  
+  <view id="RegisterSubmit" ref="RegisterSubmit.dsl" include="true">
+    <extend statusbarcolor="#321e12"/>
+  </view>  
+  <view id="CallService" ref="CallService.dlg" include="true"> 
+    <extend statusbarcolor="#321e12"/> 
+  </view> 
 </application>
 <!--
 【屏幕显示方向】
