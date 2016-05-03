@@ -5,64 +5,26 @@
   <start view="Login"/>  
   <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
   <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->  
-  <view id="Login" ref="Login.dsl" include="true"> 
-    <extend statusbarcolor="#e0a01f"/> 
-  </view>  
-  <view id="Home" ref="Home.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="About" ref="About.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="Address" ref="Address.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="OrderQuery" ref="OrderQuery.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="Voucher" ref="Voucher.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="Repassword" ref="Repassword.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="OpinionDetail" ref="OpinionDetail.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="AboutDetail" ref="AboutDetail.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="AddressAdd" ref="AddressAdd.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="Invoice" ref="Invoice.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="OrderList" ref="OrderList.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="OneKeyOrder" ref="OneKeyOrder.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="AddressChange" ref="AddressChange.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
+  <view id="Login" ref="Login.dsl" include="true"></view>  
+  <view id="Home" ref="Home.dsl" include="true"></view>  
+  <view id="About" ref="About.dsl" include="true"></view>  
+  <view id="Address" ref="Address.dsl" include="true"></view>  
+  <view id="OrderQuery" ref="OrderQuery.dsl" include="true"></view>  
+  <view id="Voucher" ref="Voucher.dsl" include="true"></view>  
+  <view id="Repassword" ref="Repassword.dsl" include="true"></view>  
+  <view id="OpinionDetail" ref="OpinionDetail.dsl" include="true"></view>  
+  <view id="AboutDetail" ref="AboutDetail.dsl" include="true"></view>  
+  <view id="AddressAdd" ref="AddressAdd.dsl" include="true"></view>  
+  <view id="Invoice" ref="Invoice.dsl" include="true"></view>  
+  <view id="OrderList" ref="OrderList.dsl" include="true"></view>  
+  <view id="OneKeyOrder" ref="OneKeyOrder.dsl" include="true"></view>  
+  <view id="AddressChange" ref="AddressChange.dsl" include="true"></view>  
   <import id="gaodeMap" type="mobile" ref="component"/>  
-  <view id="Register" ref="Register.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="RegisterSubmit" ref="RegisterSubmit.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="CallService" ref="CallService.dlg" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="RetrievePassword" ref="RetrievePassword.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view>  
-  <view id="NewPassword" ref="NewPassword.dsl" include="true"> 
-    <extend statusbarcolor="#321e12"/> 
-  </view> 
+  <view id="Register" ref="Register.dsl" include="true"></view>  
+  <view id="RegisterSubmit" ref="RegisterSubmit.dsl" include="true"></view>  
+  <view id="CallService" ref="CallService.dlg" include="true"></view>  
+  <view id="RetrievePassword" ref="RetrievePassword.dsl" include="true"></view>  
+  <view id="NewPassword" ref="NewPassword.dsl" include="true"></view> 
 </application>
 <!--
 【屏幕显示方向】
